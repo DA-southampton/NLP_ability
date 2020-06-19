@@ -3,12 +3,12 @@
 
 ## 深度学习自然语言处理
 
-### 1.Transformer
+### 1.Transformer/Bert
 
 | Transformer 相关知识                                         | 进度         |
 | ------------------------------------------------------------ | ------------ |
 | [史上最全Transformer面试题](./深度学习自然语言处理/Transformer/史上最全Transformer面试题.md) | 已完成并上传 |
-| 手撕Transformer代码-详细解读                                 |  |
+| [Pytorch代码分析--如何让Bert在finetune小数据集时更“稳”一点](./深度学习自然语言处理/Bert/Pytorch代码分析-如何让Bert在finetune小数据集时更“稳”一点.md)                            |  |
 
 
 
