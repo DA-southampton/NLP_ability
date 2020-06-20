@@ -8,7 +8,7 @@
 | Transformer 相关知识                                         | 进度         |
 | ------------------------------------------------------------ | ------------ |
 | [史上最全Transformer面试题](./深度学习自然语言处理/Transformer/史上最全Transformer面试题.md) | 已完成并上传 |
-| [答案解析-史上最全Transformer面试题](./深度学习自然语言处理/Transformer/答案解析(1)—史上最全Transformer面试题：灵魂20问帮你彻底搞定Transformer.md) | 已经完成并上传 |
+| [答案解析(1)-史上最全Transformer面试题](./深度学习自然语言处理/Transformer/答案解析(1)—史上最全Transformer面试题：灵魂20问帮你彻底搞定Transformer.md) | 已经完成并上传 |
 | [Pytorch代码分析--如何让Bert在finetune小数据集时更“稳”一点](./深度学习自然语言处理/Bert/Pytorch代码分析-如何让Bert在finetune小数据集时更“稳”一点.md)                            | 已经完成并上传 |
 
 
