@@ -7,6 +7,11 @@
 https://zhuanlan.zhihu.com/p/148656446
 
 其实这20个问题不是让大家背答案，而是为了帮助大家梳理 transformer的相关知识点，所以你注意看会发现我的问题也是有某种顺序的。
+
+本文涉及到的代码可以在这里找到：
+
+https://github.com/DA-southampton/NLP_ability
+
 问题基本上都可以在网上找到答案，所以大家可以先去搜一搜，自己理解一下，我也不会重新把答案回答一遍，而是列出来我看到的比较好的回答，然后加上点自己的注解帮助大家理解，在这里感谢那些大佬回答者，今天整理了其中的五个，剩下的我抽空在整理一下。
 
 这里我先小声说一下，写这些笔记有两个目的。
@@ -20,7 +25,6 @@ https://zhuanlan.zhihu.com/p/148656446
 ### 正文
 ##### 1.Transformer为何使用多头注意力机制？（为什么不使用一个头）
 
-Transformer为何使用多头注意力机制？（为什么不使用一个头）
 答案解析参考这里：为什么Transformer 需要进行 Multi-head Attention？
 https://www.zhihu.com/question/341222779
 
