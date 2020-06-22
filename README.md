@@ -23,6 +23,7 @@
 | [史上最全Transformer面试题](./深度学习自然语言处理/Transformer/史上最全Transformer面试题.md) | 已完成并上传 |
 | [答案解析(1)-史上最全Transformer面试题](./深度学习自然语言处理/Transformer/答案解析(1)—史上最全Transformer面试题：灵魂20问帮你彻底搞定Transformer.md) | 已经完成并上传 |
 | [Pytorch代码分析--如何让Bert在finetune小数据集时更“稳”一点](./深度学习自然语言处理/Bert/Pytorch代码分析-如何让Bert在finetune小数据集时更“稳”一点.md)                            | 已经完成并上传 |
+|[解决老大难问题-如何一行代码带你随心所欲重新初始化bert的某些参数(附Pytorch代码详细解读)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Bert/%E8%A7%A3%E5%86%B3%E8%80%81%E5%A4%A7%E9%9A%BE%E9%97%AE%E9%A2%98-%E5%A6%82%E4%BD%95%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B8%A6%E4%BD%A0%E9%9A%8F%E5%BF%83%E6%89%80%E6%AC%B2%E9%87%8D%E6%96%B0%E5%88%9D%E5%A7%8B%E5%8C%96bert%E7%9A%84%E6%9F%90%E4%BA%9B%E5%8F%82%E6%95%B0(%E9%99%84Pytorch%E4%BB%A3%E7%A0%81).md)|已经完成并上传|
 
 
 
