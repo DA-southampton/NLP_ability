@@ -1,5 +1,3 @@
-解决老大难问题-如何一行代码带你随心所欲重新初始化bert的某些参数(附Pytorch代码详细解读)
-
 Bert我们一般使用方法是，加载预训练模型，在我们自己的任务上进行微调。但是我们有些时候会遇到这种情况，比如说，之前文章提到的，
 我不想要你预训练模型中最后三层参数，而是使用我自己的方法重新初始化。
 
@@ -28,8 +26,6 @@ https://github.com/DA-southampton/Read_Bert_Code/blob/0605619582f1bcd27144e2d76f
 ```python
 module._load_from_state_dict(state_dict, prefix, local_metadata, True, missing_keys, unexpected_keys, error_msgs)
 ```
-
-
 
 代码位置在这里：
 https://github.com/DA-southampton/Read_Bert_Code/blob/0605619582f1bcd27144e2d76fac93cb16e44055/bert_read_step_to_step/transformers/modeling_utils.py#L404
