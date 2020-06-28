@@ -78,6 +78,8 @@
 
 - WMD
 
+[WMD的简单理解(不涉及优化加速)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%8F%A5%E5%90%91%E9%87%8F/WMD%E7%9A%84%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3(%E4%B8%8D%E6%B6%89%E5%8F%8A%E4%BC%98%E5%8C%96%E5%8A%A0%E9%80%9F).md)
+
 - Skip-Thought vecotrs
 
 - Quick-Thought Vectors
