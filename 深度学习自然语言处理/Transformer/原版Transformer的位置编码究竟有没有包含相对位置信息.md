@@ -32,7 +32,7 @@ $PE_{pos}^{T}PE_{pos+k} \tag{2}$
 
 具体的我们可以看下面这个图：
 
-![rela_posi](/Users/zida/Documents/GitHub/NLP_ability/深度学习自然语言处理/Transformer/images/rela_posi.png)
+![rela_posi](./images/rela_posi.png)
 
 
 
@@ -40,7 +40,7 @@ $PE_{pos}^{T}PE_{pos+k} \tag{2}$
 
 直接看效果图：
 
-![rela_po_none](/Users/zida/Documents/GitHub/NLP_ability/深度学习自然语言处理/Transformer/images/rela_po_none.png)
+![rela_po_none](./images/rela_po_none.png)
 
 这个图需要重点看的下面两个，也就是加了线性变化之后，变化趋势从最上面蓝色图标的线变成了下面两条线，也就是趋势已经完全没有了。
 
