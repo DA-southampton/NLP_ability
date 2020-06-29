@@ -76,3 +76,6 @@ NLP中 batch normalization与 layer normalization - 秩法策士的文章 - 知�
 
 推荐一下这个文章，总结了对比实验：”这里我们设置了一组对照试验来对比普通网络，BN以及LN在MLP和RNN上的表现“，我还没细看，之后看。
 
+transformer 为什么使用 layer normalization，而不是其他的归一化方法？ - pymars的回答 - 知乎 https://www.zhihu.com/question/395811291/answer/1260290120
+
+推荐这个答案，很好
