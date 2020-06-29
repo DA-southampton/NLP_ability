@@ -49,3 +49,31 @@ $PE_{pos}^{T}PE_{pos+k} \tag{2}$
 上面这些内容，估计5分钟左右吧，本来想加上相对位置编码，不过内容也挺多的，下回再发吧。
 
 同学们，如果觉写的还行，给个在看。
+
+
+
+参考链接：
+
+[一文读懂Transformer模型的位置编码](https://mp.weixin.qq.com/s/QxaZTVOUrzKfO7B78EM5Uw)
+
+这个文章写的不错，主要是给出来正余弦函数表达相对信息的公式推导
+
+[浅谈Transformer模型中的位置表示](https://mp.weixin.qq.com/s/vXYJKF9AViKnd0tbuhMWgQ)
+
+哈工大的SCIR写的文章，不错，从正余弦函数位置信息和相对位置信息和transformerx-l都讲出来了
+
+[Transformer改进之相对位置编码RPE](https://mp.weixin.qq.com/s/NPM3w7sIYVLuMYxQ_R6PrA)
+
+这个文章很好，讲了位置编码的几种优化，值得好好看看推导一下公式
+
+[如何优雅地编码文本中的位置信息？三种positioanl encoding方法简述](https://mp.weixin.qq.com/s/ENpXBYQ4hfdTLSXBIoF00Q)
+
+夕小瑶的文章，讲了三种位置编码，还可以，没事的时候可以看看
+
+[[相对位置编码一)Relative Position Representatitons RPR - Transformer](https://www.cnblogs.com/shiyublog/p/11185625.html)
+
+大佬讲了一下相对位置编码，很好，推荐
+
+[相对位置编码(二) Relative Positional Encodings - Transformer-XL](https://www.cnblogs.com/shiyublog/p/11236212.html)
+
+大佬讲的transformer-xl，推荐

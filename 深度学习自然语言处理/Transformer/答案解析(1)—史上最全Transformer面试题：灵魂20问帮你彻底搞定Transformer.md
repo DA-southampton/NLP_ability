@@ -70,3 +70,25 @@ https://github.com/huggingface/transformers/blob/aa6a29bc25b663e1311c5c4fb96b004
 这个是最新版，比较老版本的实现地址我也罗列一下，应该没啥区别，我没细看，一直用的老版本的：
 
 https://github.com/DA-southampton/Read_Bert_Code/blob/0605619582f1bcd27144e2d76fac93cb16e44055/bert_read_step_to_step/transformers/modeling_bert.py#L607
+
+
+
+
+
+参考链接：
+[关于Transformer，面试官们都怎么问？](https://blog.csdn.net/fengdu78/article/details/104629336)
+写的很好，面试题总结的很好，把整体梳理了一遍。
+
+关于Transformer的若干问题整理记录 - Adherer的文章 - 知乎
+https://zhuanlan.zhihu.com/p/82391768
+
+关于Transformer的若干问题整理记录 - Adherer的文章 - 知乎
+https://zhuanlan.zhihu.com/p/82391768 和上面是一个文章，在知乎
+
+Transformer的细节与技巧 - 沧海一栗的文章 - 知乎
+https://zhuanlan.zhihu.com/p/69697467
+讲了几个代码上的小细节
+
+NLP预训练模型：从transformer到albert - Serendipity的文章 - 知乎
+https://zhuanlan.zhihu.com/p/85221503
+大佬主要是大白话讲了一下代码的实现，包括维度的变化
