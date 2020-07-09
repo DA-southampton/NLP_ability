@@ -27,7 +27,11 @@
 |[3分钟从零解读Transformer的Encoder](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/3%E5%88%86%E9%92%9F%E4%BB%8E%E9%9B%B6%E8%A7%A3%E8%AF%BBTransformer%E7%9A%84Encoder.md)|已经完成并上传|
 |[原版Transformer的位置编码究竟有没有包含相对位置信息](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/%E5%8E%9F%E7%89%88Transformer%E7%9A%84%E4%BD%8D%E7%BD%AE%E7%BC%96%E7%A0%81%E7%A9%B6%E7%AB%9F%E6%9C%89%E6%B2%A1%E6%9C%89%E5%8C%85%E5%90%AB%E7%9B%B8%E5%AF%B9%E4%BD%8D%E7%BD%AE%E4%BF%A1%E6%81%AF.md)|已经完成并上传|
 |[BN踩坑记--谈一下Batch Normalization的优缺点和适用场景](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/BN%E8%B8%A9%E5%9D%91%E8%AE%B0--%E8%B0%88%E4%B8%80%E4%B8%8BBatch%20Normalization%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9%E5%92%8C%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF.md)|已经完成并上传|
-
+|[谈一下相对位置编码](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/%E8%B0%88%E4%B8%80%E4%B8%8B%E7%9B%B8%E5%AF%B9%E4%BD%8D%E7%BD%AE%E7%BC%96%E7%A0%81.md)|已经完成并上传|
+|[NLP任务中-layer-norm比BatchNorm好在哪里](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/NLP%E4%BB%BB%E5%8A%A1%E4%B8%AD-layer-norm%E6%AF%94BatchNorm%E5%A5%BD%E5%9C%A8%E5%93%AA%E9%87%8C.md)|已经完成并上传|
+|[谈一谈Decoder模块](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/%E8%B0%88%E4%B8%80%E8%B0%88Decoder%E6%A8%A1%E5%9D%97.md)|已经完成并上传|
+|[Transformer的并行化](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/Transformer%E7%9A%84%E5%B9%B6%E8%A1%8C%E5%8C%96.md)|已经完成并上传|
+|[Transformer全部文章合辑](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/%E7%AD%94%E6%A1%88%E5%90%88%E8%BE%91.md)|已经完成并上传|
 
 ### 2.词向量-word embedding
 
@@ -35,7 +39,7 @@
 
   | Word2vec相关知识                       | 进度         |
   | -------------------------------------- | ------------ |
-  | 史上最全Word2vec面试题                 |  |
+  | [史上最全词向量面试题-Word2vec/fasttext/glove/Elmo](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8%E8%AF%8D%E5%90%91%E9%87%8F%E9%9D%A2%E8%AF%95%E9%A2%98%E6%A2%B3%E7%90%86.md)| 已经完成并上传 |
   | Word2vec各种细节的详细解读             |  |
   | 基于自己语料训练词向量的各种细节和经验 |  |
 
