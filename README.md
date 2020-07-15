@@ -41,8 +41,9 @@
 
   | Fasttext相关知识            | 进度       |
   | --------------------------- | ---------- |
-  | Fasttext源码详细解读(C++版) |  |
   | [简单聊一下Fasttext](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/%E7%AE%80%E5%8D%95%E8%81%8A%E4%B8%80%E4%B8%8BFasttext.md) |  已经完成并上传 |
+  | Fasttext源码详细解读(C++版) |  |
+  
 
 - Glove
 
@@ -72,11 +73,14 @@
 
   | 词向量词袋模型相关知识             | 进度 |
   | ---------------------------------- | ---- |
-  | 平均/tf-idf 词向量(word2vec/glove) |      |
+  | 平均/tf-idf 词向量(word2vec/glove)实战效果详细对比 |      |
 
 - WMD
+  | WMD模型相关知识             | 进度 |
+  | ---------------------------------- | ---- |
+  | [WMD的简单理解(不涉及优化加速)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%8F%A5%E5%90%91%E9%87%8F/WMD%E7%9A%84%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3(%E4%B8%8D%E6%B6%89%E5%8F%8A%E4%BC%98%E5%8C%96%E5%8A%A0%E9%80%9F).md)|  已经完成并上传    |
 
-[WMD的简单理解(不涉及优化加速)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%8F%A5%E5%90%91%E9%87%8F/WMD%E7%9A%84%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3(%E4%B8%8D%E6%B6%89%E5%8F%8A%E4%BC%98%E5%8C%96%E5%8A%A0%E9%80%9F).md)
+
 
 - Power Mean 均值模型
 
