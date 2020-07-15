@@ -42,7 +42,7 @@
   | Fasttext相关知识            | 进度       |
   | --------------------------- | ---------- |
   | Fasttext源码详细解读(C++版) |  |
-  | Fasttext各种细节的详细解读  |   |
+  | [简单聊一下Fasttext](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/%E7%AE%80%E5%8D%95%E8%81%8A%E4%B8%80%E4%B8%8BFasttext.md) |  已经完成并上传 |
 
 - Glove
 
