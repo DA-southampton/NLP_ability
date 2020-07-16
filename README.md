@@ -1,6 +1,10 @@
 # 背景介绍
 建立这个仓库是为了梳理自然语言处理(NLP)各个方面的知识，提升自己的核心竞争力。我觉得NLP是一个值得深耕的领域，所以希望可以不停的提升自己的段位！
-  
+
+**微信公众号：NLP从入门到放弃**
+
+![wechat](./images/wechat.png)
+
 ## 深度学习自然语言处理
 
 ### 1.Transformer/Bert
@@ -24,8 +28,8 @@
 
 - 词向量面试题梳理
 | 词向量面试题梳理                    | 进度         |
-  | -------------------------------------- | ------------ |
-  | [史上最全词向量面试题-Word2vec/fasttext/glove/Elmo](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8%E8%AF%8D%E5%90%91%E9%87%8F%E9%9D%A2%E8%AF%95%E9%A2%98%E6%A2%B3%E7%90%86.md)| 已经完成并上传 |
+| -------------------------------------- | ------------ |
+| [史上最全词向量面试题-Word2vec/fasttext/glove/Elmo](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8%E8%AF%8D%E5%90%91%E9%87%8F%E9%9D%A2%E8%AF%95%E9%A2%98%E6%A2%B3%E7%90%86.md)| 已经完成并上传 |
 
 - Word2vec
 
@@ -44,7 +48,6 @@
   | [简单聊一下Fasttext](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/%E7%AE%80%E5%8D%95%E8%81%8A%E4%B8%80%E4%B8%8BFasttext.md) |  已经完成并上传 |
   | Fasttext源码详细解读(C++版) |  |
   
-
 - Glove
 
   | Glove相关知识             | 进度         |
@@ -55,9 +58,9 @@
 ### 3 句向量-sentence embedding
 
 
-  | 句向量模型相关知识        | 进度         |
-  | ------------------------- | ------------ |
-  | [句向量模型综述](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%8F%A5%E5%90%91%E9%87%8F/%E5%8F%A5%E5%90%91%E9%87%8F%E6%A8%A1%E5%9E%8B%E7%BB%BC%E8%BF%B0.md)      |   持续更新中|
+| 句向量模型相关知识        | 进度         |
+| ------------------------- | ------------ |
+| [句向量模型综述](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%8F%A5%E5%90%91%E9%87%8F/%E5%8F%A5%E5%90%91%E9%87%8F%E6%A8%A1%E5%9E%8B%E7%BB%BC%E8%BF%B0.md)      |   持续更新中|
 
 
 
@@ -105,9 +108,9 @@
 
 ### 文本相似度
 
-  | 文本相似度 相关知识    | 进度           |
-  | -------------------------- | -------------- |
-  | 基本相似度模型介绍 |  |
+| 文本相似度 相关知识    | 进度           |
+| -------------------------- | -------------- |
+| 基本相似度模型介绍 |  |
 
 ### 4. 机器翻译
 
@@ -152,15 +155,15 @@
 
 ## 搜索
 | 搜索相关知识                   | 进度         |
-  | -------------------------------------- | ------------ |
-  | [各种关于搜索的好文章资源总结-看到比较不错的就放上来](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%90%9C%E7%B4%A2/%E6%90%9C%E7%B4%A2%E8%B5%84%E6%BA%90%E6%80%BB%E7%BB%93-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0.md)           |  |
+| -------------------------------------- | ------------ |
+| [各种关于搜索的好文章资源总结-看到比较不错的就放上来](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%90%9C%E7%B4%A2/%E6%90%9C%E7%B4%A2%E8%B5%84%E6%BA%90%E6%80%BB%E7%BB%93-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0.md)           |  |
 
 
 ## 推荐系统
 
 | 推荐系统相关知识                       | 进度         |
-  | -------------------------------------- | ------------ |
-  | [各种关于推荐的好文章资源总结-看到比较不错的就放上来](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%8E%A8%E8%8D%90/%E6%8E%A8%E8%8D%90%E8%B5%84%E6%BA%90%E6%9B%B4%E6%96%B0.md)                  |  |
+| -------------------------------------- | ------------ |
+| [各种关于推荐的好文章资源总结-看到比较不错的就放上来](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%8E%A8%E8%8D%90/%E6%8E%A8%E8%8D%90%E8%B5%84%E6%BA%90%E6%9B%B4%E6%96%B0.md)                  |  |
 
 
 
