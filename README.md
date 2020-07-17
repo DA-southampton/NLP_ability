@@ -27,6 +27,7 @@
 ### 2.词向量-word embedding
 
 - 词向量面试题梳理
+
 | 词向量面试题梳理                    | 进度         |
 | -------------------------------------- | ------------ |
 | [史上最全词向量面试题-Word2vec/fasttext/glove/Elmo](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8%E8%AF%8D%E5%90%91%E9%87%8F%E9%9D%A2%E8%AF%95%E9%A2%98%E6%A2%B3%E7%90%86.md)| 已经完成并上传 |
@@ -39,17 +40,19 @@
   |[Word2vec两种优化方式细节详细解读](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/%E8%81%8A%E4%B8%80%E4%B8%8BWord2vec-%E8%AE%AD%E7%BB%83%E4%BC%98%E5%8C%96%E7%AF%87.md)|已经完成并上传|
   |[Word2vec-负采样和层序softmax与原模型是否等价](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/word2vec%E4%B8%A4%E7%A7%8D%E4%BC%98%E5%8C%96%E6%96%B9%E5%BC%8F%E7%9A%84%E8%81%94%E7%B3%BB%E5%92%8C%E5%8C%BA%E5%88%AB.md)|已经完成并上传|
   |[Word2vec为何需要二次采样以及相关细节详细解读](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Word2vec%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E4%BA%8C%E6%AC%A1%E9%87%87%E6%A0%B7%EF%BC%9F.md)|已经完成并上传|
-  | [Word2vec的负采样]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Word2vec%E7%9A%84%E8%B4%9F%E9%87%87%E6%A0%B7.md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/词向量/Word2vec的负采样.md)) | 已经完成并上传 |
-  | [Word2vec模型究竟是如何获得词向量的]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Word2vec%E6%A8%A1%E5%9E%8B%E7%A9%B6%E7%AB%9F%E6%98%AF%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%E8%AF%8D%E5%90%91%E9%87%8F%E7%9A%84.md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/词向量/Word2vec模型究竟是如何获得词向量的.md)) | 已经完成并上传 |
-  | [Word2vec训练参数的选定]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Word2vec%E8%AE%AD%E7%BB%83%E5%8F%82%E6%95%B0%E7%9A%84%E9%80%89%E5%AE%9A.md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/词向量/Word2vec训练参数的选定.md)) | 已经完成并上传 |
-  | [CBOW和skip-gram相较而言，彼此相对适合哪些场景.md]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/CBOW%E5%92%8Cskip-gram%E7%9B%B8%E8%BE%83%E8%80%8C%E8%A8%80%EF%BC%8C%E5%BD%BC%E6%AD%A4%E7%9B%B8%E5%AF%B9%E9%80%82%E5%90%88%E5%93%AA%E4%BA%9B%E5%9C%BA%E6%99%AF.md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/词向量/CBOW和skip-gram相较而言，彼此相对适合哪些场景.md)) | 已经完成并上传 |
+  | [Word2vec的负采样](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Word2vec%E7%9A%84%E8%B4%9F%E9%87%87%E6%A0%B7.md) | 已经完成并上传 |
+  | [Word2vec模型究竟是如何获得词向量的](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Word2vec%E6%A8%A1%E5%9E%8B%E7%A9%B6%E7%AB%9F%E6%98%AF%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%E8%AF%8D%E5%90%91%E9%87%8F%E7%9A%84.md) | 已经完成并上传 |
+  | [Word2vec训练参数的选定](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Word2vec%E8%AE%AD%E7%BB%83%E5%8F%82%E6%95%B0%E7%9A%84%E9%80%89%E5%AE%9A.md) | 已经完成并上传 |
+  | [CBOW和skip-gram相较而言，彼此相对适合哪些场景.md](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/CBOW%E5%92%8Cskip-gram%E7%9B%B8%E8%BE%83%E8%80%8C%E8%A8%80%EF%BC%8C%E5%BD%BC%E6%AD%A4%E7%9B%B8%E5%AF%B9%E9%80%82%E5%90%88%E5%93%AA%E4%BA%9B%E5%9C%BA%E6%99%AF.md) | 已经完成并上传 |
+
+
 
 - Fasttext
 
   | Fasttext相关知识            | 进度       |
   | --------------------------- | ---------- |
-  | [Fasttext详解解读(1)-文本分类]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Fasttext%E8%A7%A3%E8%AF%BB(1).md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/词向量/Fasttext解读(1).md)) |  已经完成并上传 |
-  | [Fasttext详解解读(2)-训练词向量]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Fasttext%E8%A7%A3%E8%AF%BB(2).md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/词向量/Fasttext解读(2).md)) | 已经完成并上传 |
+  | [Fasttext详解解读(1)-文本分类](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Fasttext%E8%A7%A3%E8%AF%BB(1).md) |  已经完成并上传 |
+  | [Fasttext详解解读(2)-训练词向量](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Fasttext%E8%A7%A3%E8%AF%BB(2).md) | 已经完成并上传 |
   | Fasttext源码详细解读(C++版) | |
 
 - Glove
