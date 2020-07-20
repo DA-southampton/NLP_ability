@@ -11,9 +11,7 @@
 | ------------------------------------------------------------ | ------ |
 | [层次分类体系的必要性-多模态讲解系列(1)]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E5%B1%82%E6%AC%A1%E5%88%86%E7%B1%BB%E4%BD%93%E7%B3%BB%E7%9A%84%E5%BF%85%E8%A6%81%E6%80%A7-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%AE%B2%E8%A7%A3%E7%B3%BB%E5%88%97(1).md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/多模态/层次分类体系的必要性-多模态讲解系列(1).md)) | 完成   |
 | [文本和图像特征表示模块详解-多模态讲解系列(2)]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E6%96%87%E6%9C%AC%E5%92%8C%E5%9B%BE%E5%83%8F%E7%89%B9%E5%BE%81%E8%A1%A8%E7%A4%BA%E6%A8%A1%E5%9D%97%E8%AF%A6%E8%A7%A3-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%AE%B2%E8%A7%A3%E7%B3%BB%E5%88%97(2).md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/多模态/文本和图像特征表示模块详解-多模态讲解系列(2).md)) | 完成   |
-| [层次体系具体是如何构建的]()                                 | 待完成 |
-
-
+| [层次体系具体是如何构建的]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E5%B1%82%E6%AC%A1%E4%BD%93%E7%B3%BB%E7%9A%84%E6%9E%84%E5%BB%BA-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%A3%E6%9E%90(3).md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/多模态/层次体系的构建-多模态解析(3).md)) | 待完成 |
 
 ## 深度学习自然语言处理
 
