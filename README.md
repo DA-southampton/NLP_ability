@@ -5,13 +5,6 @@
 
 ![wechat](./images/wechat.png)
 
-## 多模态
-
-| 多模态相关知识汇总                                           | 进度   |
-| ------------------------------------------------------------ | ------ |
-| [层次分类体系的必要性-多模态讲解系列(1)]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E5%B1%82%E6%AC%A1%E5%88%86%E7%B1%BB%E4%BD%93%E7%B3%BB%E7%9A%84%E5%BF%85%E8%A6%81%E6%80%A7-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%AE%B2%E8%A7%A3%E7%B3%BB%E5%88%97(1).md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/多模态/层次分类体系的必要性-多模态讲解系列(1).md)) | 完成   |
-| [文本和图像特征表示模块详解-多模态讲解系列(2)]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E6%96%87%E6%9C%AC%E5%92%8C%E5%9B%BE%E5%83%8F%E7%89%B9%E5%BE%81%E8%A1%A8%E7%A4%BA%E6%A8%A1%E5%9D%97%E8%AF%A6%E8%A7%A3-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%AE%B2%E8%A7%A3%E7%B3%BB%E5%88%97(2).md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/多模态/文本和图像特征表示模块详解-多模态讲解系列(2).md)) | 完成   |
-| [层次体系具体是如何构建的]([https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E5%B1%82%E6%AC%A1%E4%BD%93%E7%B3%BB%E7%9A%84%E6%9E%84%E5%BB%BA-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%A3%E6%9E%90(3).md](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/多模态/层次体系的构建-多模态解析(3).md)) | 待完成 |
 
 ## 深度学习自然语言处理
 
@@ -69,6 +62,7 @@
   | ------------------------- | ------------ |
   | [GLove细节详细解读](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/%E8%81%8A%E4%B8%80%E4%B8%8BGlove.md)         |  已经完成并上传|
   | Glove训练词向量代码及解读 |  |
+  
 
 ### 3 句向量-sentence embedding
 
@@ -166,6 +160,14 @@
 | TFIDF模型提取关键词解读 | |
 | TextRank提取关键词      |  |
 | 各种dirty工作技巧       |  |
+
+### 8. 多模态
+
+| 多模态相关知识汇总                                           | 进度   |
+| ------------------------------------------------------------ | ------ |
+| [层次分类体系的必要性-多模态讲解系列(1)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E5%B1%82%E6%AC%A1%E5%88%86%E7%B1%BB%E4%BD%93%E7%B3%BB%E7%9A%84%E5%BF%85%E8%A6%81%E6%80%A7-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%AE%B2%E8%A7%A3%E7%B3%BB%E5%88%97(1).md) | 完成   |
+| [文本和图像特征表示模块详解-多模态讲解系列(2)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E6%96%87%E6%9C%AC%E5%92%8C%E5%9B%BE%E5%83%8F%E7%89%B9%E5%BE%81%E8%A1%A8%E7%A4%BA%E6%A8%A1%E5%9D%97%E8%AF%A6%E8%A7%A3-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%AE%B2%E8%A7%A3%E7%B3%BB%E5%88%97(2).md) | 完成   |
+| [层次体系具体是如何构建的-多模态讲解系列(3)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E5%B1%82%E6%AC%A1%E4%BD%93%E7%B3%BB%E7%9A%84%E6%9E%84%E5%BB%BA-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%A3%E6%9E%90(3).md) | 待完成 |
 
 
 ## 搜索
