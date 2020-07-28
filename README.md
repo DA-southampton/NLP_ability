@@ -61,7 +61,7 @@
   | Glove相关知识             | 进度         |
   | ------------------------- | ------------ |
   | [GLove细节详细解读](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/%E8%81%8A%E4%B8%80%E4%B8%8BGlove.md)         |  已经完成并上传|
-  | Glove训练词向量代码及解读 |  |
+
   
 
 ### 3 句向量-sentence embedding
@@ -72,54 +72,13 @@
 | [句向量模型综述](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%8F%A5%E5%90%91%E9%87%8F/%E5%8F%A5%E5%90%91%E9%87%8F%E6%A8%A1%E5%9E%8B%E7%BB%BC%E8%BF%B0.md)      |   持续更新中|
 
 
-
-无监督：
-
-- 统计词袋模型表示句子向量
-
-  | 统计词袋模型相关知识 | 进度 |
-  | -------------------- | ---- |
-  | [One-hot/TF-IDF-比较简单见综述文章的介绍即可](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%8F%A5%E5%90%91%E9%87%8F/%E5%8F%A5%E5%90%91%E9%87%8F%E6%A8%A1%E5%9E%8B%E7%BB%BC%E8%BF%B0.md)       |  已经完成并上传 |
-
-- 词向量词袋模型
-
-  | 词向量词袋模型相关知识             | 进度 |
-  | ---------------------------------- | ---- |
-  | 平均/tf-idf 词向量(word2vec/glove)实战效果详细对比 |      |
-
-- WMD
-  | WMD模型相关知识             | 进度 |
-  | ---------------------------------- | ---- |
-  | [WMD的简单理解(不涉及优化加速)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%8F%A5%E5%90%91%E9%87%8F/WMD%E7%9A%84%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3(%E4%B8%8D%E6%B6%89%E5%8F%8A%E4%BC%98%E5%8C%96%E5%8A%A0%E9%80%9F).md)|  已经完成并上传    |
-
-- SIF
-
-  | SIF 相关知识                  | 进度         |
-  | ----------------------------- | ------------ |
-  | SIF论文详细解读               |  |
-  | SIF在中文文本上代码及效果解读 |  |
-
-- Power Mean 均值模型
-
-- Skip-Thought vecotrs
-
-- Quick-Thought Vectors
-
-- Doc2vec
-
-有监督：
-
-- Cove
-
-- InferSent
-
-- Bert
-
 ### 文本相似度
 
 | 文本相似度 相关知识    | 进度           |
 | -------------------------- | -------------- |
 | 基本相似度模型介绍 |  |
+| [WMD的简单理解(不涉及优化加速)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%8F%A5%E5%90%91%E9%87%8F/WMD%E7%9A%84%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3(%E4%B8%8D%E6%B6%89%E5%8F%8A%E4%BC%98%E5%8C%96%E5%8A%A0%E9%80%9F).md)|  已经完成并上传    |
+
 
 ### 4. 机器翻译
 
