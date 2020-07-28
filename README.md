@@ -128,6 +128,20 @@
 | [文本和图像特征表示模块详解-多模态讲解系列(2)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E6%96%87%E6%9C%AC%E5%92%8C%E5%9B%BE%E5%83%8F%E7%89%B9%E5%BE%81%E8%A1%A8%E7%A4%BA%E6%A8%A1%E5%9D%97%E8%AF%A6%E8%A7%A3-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%AE%B2%E8%A7%A3%E7%B3%BB%E5%88%97(2).md) | 完成   |
 | [层次体系具体是如何构建的-多模态讲解系列(3)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E5%B1%82%E6%AC%A1%E4%BD%93%E7%B3%BB%E7%9A%84%E6%9E%84%E5%BB%BA-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%A3%E6%9E%90(3).md) | 待完成 |
 
+## Pytorch
+
+| Pytorch技巧 |      |
+| ----------- | ---- |
+|[pytorch对text数据的预处理-综述](https://github.com/DA-southampton/NLP_ability/blob/master/Pytorch/pytorch%E5%AF%B9text%E6%95%B0%E6%8D%AE%E7%9A%84%E9%A2%84%E5%A4%84%E7%90%86-%E7%BB%BC%E8%BF%B0.md)      |    已经上传  |
+|[pytorch处理文本数据代码版本1-处理文本相似度数据](https://github.com/DA-southampton/NLP_ability/blob/master/Pytorch/pytorch%E5%A4%84%E7%90%86%E6%96%87%E6%9C%AC%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC1-%E5%A4%84%E7%90%86%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%95%B0%E6%8D%AE.md)       |  已经上传    |
+| [pytorch处理文本数据代码版本2-处理文本相似度数据](https://github.com/DA-southampton/NLP_ability/blob/master/Pytorch/pytorch%E5%A4%84%E7%90%86%E6%96%87%E6%9C%AC%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC2-%E5%A4%84%E7%90%86%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%95%B0%E6%8D%AE.md)       |   已经上传你   |
+|[Pytorch中mask attention是如何实现的代码版本1-阅读文本相似度模型的小总结](https://github.com/DA-southampton/NLP_ability/blob/master/Pytorch/Pytorch%E4%B8%ADmask%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC1-%E9%98%85%E8%AF%BB%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%A8%A1%E5%9E%8B.md)||
+
+| Pytorch调参总结                                              |      |
+| ------------------------------------------------------------ | ---- |
+| [验证集loss上升，准确率却上升该如何理解？](https://www.zhihu.com/question/318399418) |      |
+|                                                              |      |
+|                                                              |      |
 
 ## 搜索
 | 搜索相关知识                   | 进度         |
