@@ -1,6 +1,8 @@
 ## 盛最多的水  11
 https://blog.csdn.net/fuxuemingzhu/article/details/82822939
+
 https://zhuanlan.zhihu.com/p/40616691
+
 我们需要得到的是长方形面积（宽是两条板之间的距离，高比较短的的那个板子的高度），这个代表我们的蓄水面积。
 
 所以重点在这里，蓄水面积包含两个部分：距离+较短板子高度
@@ -20,9 +22,14 @@ https://zhuanlan.zhihu.com/p/40616691
 遍历 O(n3)
 
 优化：
+
 https://blog.csdn.net/fuxuemingzhu/article/details/83115850
+
 https://zhuanlan.zhihu.com/p/53519899
+
 https://zhuanlan.zhihu.com/p/104330759
+
+```python
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -51,11 +58,13 @@ class Solution(object):
                 else:
                     j -= 1
         return res
-
+```
 
 ## 电话号码  17
+
 https://blog.csdn.net/fuxuemingzhu/article/details/79363119
 
+```python
 class Solution(object):
     def letterCombinations(self, digits):
         """
@@ -68,10 +77,13 @@ class Solution(object):
         for e in digits:
             res = [w + c for c in d[e] for w in res]
         return res
+```
+
 这个过程就是比如进来是三个数字，先把前两个数字的各种组合组合起来，然后这个结果再和第三个组合起来
 
 
 https://zhuanlan.zhihu.com/p/53219687
+```python
 class Solution:
     def letterCombinations(self, digits):
         """
@@ -108,6 +120,7 @@ class Solution:
 if __name__ == '__main__':
     s = Solution()
     print(s.letterCombinations('23'))
+```
 
 这使用的是递归的思想，他的本质我大概想了一下，应该是比如输入的是2345，先把45的遍历一遍，然后慢慢往回倒，一层层的走出来。
 
@@ -116,19 +129,28 @@ if __name__ == '__main__':
 递归本质是在不停的使用自己这个函数最后完成一个结果，比如说遇到最后一层了，然后return一个结果，这个结果返回上一层，然后进行下一步计算。
 
 举个例子， 输入2345 ，debug的话或者自己想，会发现，最后输入的是45，这个时候
+
 result = self.letterCombinations(digits[1:])
-就变成了，result = self.letterCombinations(‘5’)
+
+就变成了，
+
+result = self.letterCombinations(‘5’)
+
 把这个5 带进去就发现了，
+
 if len(digits) == 1:
             return dic[int(digits[0])]
 
 遇到这个函数返回过来，这个返回的结果，就是我们result = self.letterCombinations(‘5’) 的result
 
 这个时候，我们才会继续进行下个步骤
+
+```python
 for r in result:
             for j in dic[int(digits[0])]:
                 ret_str.append(j + r)
         return ret_str
+```
 
 然后这个返回结构，在作为result = self.letterCombinations(digits[1:])  result = self.letterCombinations(‘45’)
 也就是 输入为345 的结果
