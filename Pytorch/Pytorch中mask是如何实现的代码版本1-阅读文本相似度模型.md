@@ -17,12 +17,14 @@ Pytorch中mask是如何实现的代码版本1-阅读文本相似度模型
 核心代码是这个：
 https://github.com/DA-southampton/TextMatch/blob/54e24599ce2d4caaa16d68400dc6a404795d44e9/ESIM/model.py#L57
 
+```python
 q1_aligned, q2_aligned = self.attention(q1_encoded, q1_mask, q2_encoded, q2_mask)
-
+```
 
 self.attention 函数对应的是这个函数，如下：
 https://github.com/DA-southampton/TextMatch/blob/54e24599ce2d4caaa16d68400dc6a404795d44e9/ESIM/layers.py#L59
 
+```python
 class SoftmaxAttention(nn.Module):
         similarity_matrix = premise_batch.bmm(hypothesis_batch.transpose(2, 1).contiguous())  ## 256*32 *33
         # Softmax attention weights.
@@ -33,17 +35,20 @@ class SoftmaxAttention(nn.Module):
         attended_premises = weighted_sum(hypothesis_batch, prem_hyp_attn, premise_mask)
         attended_hypotheses = weighted_sum(premise_batch, hyp_prem_attn, hypothesis_mask)
         return attended_premises, attended_hypotheses  
-
+```
 首先我们看一下输入：
+```python
 q1_encoded：256*32*600 q2_encoded：256*33*600  q1mask torch.Size([256, 32])  q2mask torch.Size([256, 33])
+```
 
 然后对于这个函数，核心操作是这个：
+```python
 prem_hyp_attn = masked_softmax(similarity_matrix, hypothesis_mask)
-
+```
 similarity_matrix 维度为256*32 *33 hypothesis_mask 为256*33
 我们去看一下masked_softmax这个函数：
 https://github.com/DA-southampton/TextMatch/blob/54e24599ce2d4caaa16d68400dc6a404795d44e9/ESIM/utils.py#L29
-
+```python
 def masked_softmax(tensor, mask):
     tensor_shape = tensor.size()  ##torch.Size([256, 32, 33])
     reshaped_tensor = tensor.view(-1, tensor_shape[-1]) ## torch.Size([7680, 33])
@@ -57,7 +62,7 @@ def masked_softmax(tensor, mask):
     # 1e-13 is added to avoid divisions by zero.
     result = result / (result.sum(dim=-1, keepdim=True) + 1e-13) ## 普通的求概率公式
     return result.view(*tensor_shape)
-
+```
 
 简单总结一下：
 整个mask的代码其实我读起来感觉比较奇怪，我印象中mask的操作，应该是补长的部分直接为负无穷（代码里写一个-1000就可以），但是他这里的代码，是补长的部位置为0，所以
