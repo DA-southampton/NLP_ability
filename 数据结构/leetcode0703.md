@@ -1,30 +1,3 @@
-## 19  删除链表的倒数第N个节点
-题目链接： https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
-解析链接： https://blog.csdn.net/fuxuemingzhu/article/details/80786149
-使用双指针，快慢指针
-看代码我的解析：
-
-class Solution(object):
-    def removeNthFromEnd(self, head, n):
-        """
-        :type head: ListNode
-        :type n: int
-        :rtype: ListNode
-        """
-        root = ListNode(0)
-        root.next = head
-        fast, slow, pre = root, root, root
-        while n - 1: ## 比如说我要是倒数第二个节点，那么快慢指针的距离应该是多少？想一下
-        ## 比如给定一个链表: 1->2->3->4->5, 和 n = 2. 那么快指针应该是在5，慢指针应该是在4，两者相差的是1，所以这里走n-1 个
-            fast = fast.next
-            n -= 1
-        while fast.next:
-            fast = fast.next
-            pre = slow
-            slow = slow.next
-        pre.next = slow.next
-        return root.next
-
 ## 31 下一个排列
 题目
 https://leetcode-cn.com/problems/next-permutation/
