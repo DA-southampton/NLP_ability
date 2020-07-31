@@ -57,11 +57,6 @@ https://zhuanlan.zhihu.com/p/63252392
 方法使用的是贪心
 这道题的核心在于实时维持一个可以达到的最大位置，如果此时的索引大于这个值，说明根本到不了这里
 
-## 56 合并区间
-题目位置：https://leetcode-cn.com/problems/merge-intervals/
-解析：https://blog.csdn.net/fuxuemingzhu/article/details/69078468
-
-核心点在 首先按照区间首位排序，随后merge
 
 ## 62 不同路径
 题目位置：https://leetcode-cn.com/problems/unique-paths/
