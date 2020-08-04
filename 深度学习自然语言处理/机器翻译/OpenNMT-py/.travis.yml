@@ -1,0 +1,74 @@
+dist: xenial
+language: python
+python:
+  - "3.5"
+git:
+  depth: false
+addons:
+  apt:
+    packages:
+      # Additional dependencies for im2text and speech2text
+      - libsox-dev
+      - libsox-fmt-all
+      - sox
+before_install:
+  # Install CPU version of PyTorch.
+  - if [[ $TRAVIS_PYTHON_VERSION == 3.5 ]]; then pip install torch==1.2.0 -f https://download.pytorch.org/whl/cpu/torch_stable.html; fi
+  - pip install -r requirements.opt.txt
+  - python setup.py install   
+env:
+  global:
+    # Doctr deploy key for OpenNMT/OpenNMT-py
+    - secure: "gL0Soefo1cQgAqwiHUrlNyZd/+SI1eJAAjLD3BEDQWXW160eXyjQAAujGgJoCirjOM7cPHVwLzwmK3S7Y3PVM3JOZguOX5Yl4uxMh/mhiEM+RG77SZyv4OGoLFsEQ8RTvIdYdtP6AwyjlkRDXvZql88TqFNYjpXDu8NG+JwEfiIoGIDYxxZ5SlbrZN0IqmQSZ4/CsV6VQiuq99Jn5kqi4MnUZBTcmhqjaztCP1omvsMRdbrG2IVhDKQOCDIO0kaPJrMy2SGzP4GV7ar52bdBtpeP3Xbm6ZOuhDNfds7M/OMHp1wGdl7XwKtolw9MeXhnGBC4gcrqhhMfcQ6XtfVLMLnsB09Ezl3FXX5zWgTB5Pm0X6TgnGrMA25MAdVqKGJpfqZxOKTh4EMb04b6OXrVbxZ88mp+V0NopuxwlTPD8PMfYLWlTe9chh1BnT0iQlLqeA4Hv3+NdpiFb4aq3V3cWTTgMqOoWSGq4t318pqIZ3qbBXBq12DLFgO5n6+M6ZrdxbDUGQvgh8nAiZcIEdodKJ4ABHi1SNCeWOzCoedUdegcbjShHfkMVmNKrncB18aRWwQ3GQJ5qdkjgJmC++uZmkS6+GPM8UmmAy1ZIkRW0aWiitjG6teqtvUHOofNd/TCxX4bhnxAj+mtVIrARCE/ci8topJ6uG4wVJ1TrIkUlAY="
+
+jobs:
+  include:
+    - name: "Flake8 Lint Check"
+      env: LINT_CHECK
+      install: pip install flake8 pep8-naming==0.7.0
+      script: flake8
+    - name: "Build Docs"
+      install:
+        - pip install doctr
+      script:
+        - pip install -r docs/requirements.txt
+        - set -e
+        - cd docs/ && make html && cd ..
+        - doctr deploy --built-docs docs/build/html/ .
+    - name: "Unit tests"
+      # Please also add tests to `test/pull_request_chk.sh`.
+      script:
+        - wget -O /tmp/im2text.tgz http://lstm.seas.harvard.edu/latex/im2text_small.tgz; tar zxf /tmp/im2text.tgz -C /tmp/; head /tmp/im2text/src-train.txt > /tmp/im2text/src-train-head.txt; head /tmp/im2text/tgt-train.txt > /tmp/im2text/tgt-train-head.txt; head /tmp/im2text/src-val.txt > /tmp/im2text/src-val-head.txt; head /tmp/im2text/tgt-val.txt > /tmp/im2text/tgt-val-head.txt
+        - wget -O /tmp/speech.tgz http://lstm.seas.harvard.edu/latex/speech.tgz; tar zxf /tmp/speech.tgz -C /tmp/; head /tmp/speech/src-train.txt > /tmp/speech/src-train-head.txt; head /tmp/speech/tgt-train.txt > /tmp/speech/tgt-train-head.txt; head /tmp/speech/src-val.txt > /tmp/speech/src-val-head.txt; head /tmp/speech/tgt-val.txt > /tmp/speech/tgt-val-head.txt
+        - wget -O /tmp/test_model_speech.pt http://lstm.seas.harvard.edu/latex/model_step_2760.pt
+        - wget -O /tmp/test_model_im2text.pt http://lstm.seas.harvard.edu/latex/test_model_im2text.pt
+        - python -m unittest discover
+        # test nmt preprocessing
+        - python preprocess.py -train_src data/src-train.txt -train_tgt data/tgt-train.txt -valid_src data/src-val.txt -valid_tgt data/tgt-val.txt -save_data /tmp/data -src_vocab_size 1000 -tgt_vocab_size 1000 && rm -rf /tmp/data*.pt
+        # test im2text preprocessing
+        - python preprocess.py -data_type img -shard_size 100 -src_dir /tmp/im2text/images -train_src /tmp/im2text/src-train.txt -train_tgt /tmp/im2text/tgt-train.txt -valid_src /tmp/im2text/src-val.txt -valid_tgt /tmp/im2text/tgt-val.txt -save_data /tmp/im2text/data && rm -rf /tmp/im2text/data*.pt
+        # test speech2text preprocessing
+        - python preprocess.py -data_type audio -shard_size 300 -src_dir /tmp/speech/an4_dataset -train_src /tmp/speech/src-train.txt -train_tgt /tmp/speech/tgt-train.txt -valid_src /tmp/speech/src-val.txt -valid_tgt /tmp/speech/tgt-val.txt -save_data /tmp/speech/data && rm -rf /tmp/speech/data*.pt
+        # test nmt translation
+        - head data/src-test.txt > /tmp/src-test.txt; python translate.py -model onmt/tests/test_model.pt -src /tmp/src-test.txt -verbose
+        # test nmt ensemble translation
+        - head data/src-test.txt > /tmp/src-test.txt; python translate.py -model onmt/tests/test_model.pt onmt/tests/test_model.pt -src /tmp/src-test.txt -verbose
+        # test im2text translation
+        - head /tmp/im2text/src-val.txt > /tmp/im2text/src-val-head.txt; head /tmp/im2text/tgt-val.txt > /tmp/im2text/tgt-val-head.txt; python translate.py -data_type img -src_dir /tmp/im2text/images -model /tmp/test_model_im2text.pt -src /tmp/im2text/src-val-head.txt -tgt /tmp/im2text/tgt-val-head.txt -verbose -out /tmp/im2text/trans
+        # test speech2text translation
+        - head /tmp/speech/src-val.txt > /tmp/speech/src-val-head.txt; head /tmp/speech/tgt-val.txt > /tmp/speech/tgt-val-head.txt; python translate.py -data_type audio -src_dir /tmp/speech/an4_dataset -model /tmp/test_model_speech.pt -src /tmp/speech/src-val-head.txt -tgt /tmp/speech/tgt-val-head.txt -verbose -out /tmp/speech/trans; diff /tmp/speech/tgt-val-head.txt /tmp/speech/trans
+        # test nmt preprocessing and training
+        - head -500 data/src-val.txt > /tmp/src-val.txt; head -500 data/tgt-val.txt > /tmp/tgt-val.txt; python preprocess.py -train_src /tmp/src-val.txt -train_tgt /tmp/tgt-val.txt -valid_src /tmp/src-val.txt -valid_tgt /tmp/tgt-val.txt -save_data /tmp/q -src_vocab_size 1000 -tgt_vocab_size 1000; python train.py -data /tmp/q -rnn_size 2 -batch_size 2 -word_vec_size 5 -report_every 5 -rnn_size 10 -train_steps 10 && rm -rf /tmp/q*.pt
+        # test nmt preprocessing w/ sharding and training w/copy
+        - head -50 data/src-val.txt > /tmp/src-val.txt; head -50 data/tgt-val.txt > /tmp/tgt-val.txt; python preprocess.py -train_src /tmp/src-val.txt -train_tgt /tmp/tgt-val.txt -valid_src /tmp/src-val.txt -valid_tgt /tmp/tgt-val.txt -shard_size 25 -dynamic_dict -save_data /tmp/q -src_vocab_size 1000 -tgt_vocab_size 1000; python train.py -data /tmp/q -rnn_size 2 -batch_size 2 -word_vec_size 5 -report_every 5 -rnn_size 10 -copy_attn -train_steps 10 -pool_factor 10 && rm -rf /tmp/q*.pt
+
+        # test im2text preprocessing and training
+        - head -50 /tmp/im2text/src-val.txt > /tmp/im2text/src-val-head.txt; head -50 /tmp/im2text/tgt-val.txt > /tmp/im2text/tgt-val-head.txt; python preprocess.py -data_type img -src_dir /tmp/im2text/images -train_src /tmp/im2text/src-val-head.txt -train_tgt /tmp/im2text/tgt-val-head.txt -valid_src /tmp/im2text/src-val-head.txt -valid_tgt /tmp/im2text/tgt-val-head.txt -save_data /tmp/im2text/q -tgt_seq_length 100; python train.py -model_type img -data /tmp/im2text/q -rnn_size 2 -batch_size 2 -word_vec_size 5 -report_every 5 -rnn_size 10 -train_steps 10 -pool_factor 10 && rm -rf /tmp/im2text/q*.pt
+        # test speech2text preprocessing and training
+        - head -100 /tmp/speech/src-val.txt > /tmp/speech/src-val-head.txt; head -100 /tmp/speech/tgt-val.txt > /tmp/speech/tgt-val-head.txt; python preprocess.py -data_type audio -src_dir /tmp/speech/an4_dataset -train_src /tmp/speech/src-val-head.txt -train_tgt /tmp/speech/tgt-val-head.txt -valid_src /tmp/speech/src-val-head.txt -valid_tgt /tmp/speech/tgt-val-head.txt -save_data /tmp/speech/q; python train.py -model_type audio -data /tmp/speech/q -rnn_size 2 -batch_size 2 -word_vec_size 5 -report_every 5 -rnn_size 10 -train_steps 10 -pool_factor 10 && rm -rf /tmp/speech/q*.pt
+        # test nmt translation
+        - python translate.py -model onmt/tests/test_model2.pt  -src  data/morph/src.valid  -verbose -batch_size 10 -beam_size 10 -tgt data/morph/tgt.valid -out /tmp/trans; diff  data/morph/tgt.valid /tmp/trans
+        # test nmt translation with random sampling
+        - python translate.py -model onmt/tests/test_model2.pt  -src  data/morph/src.valid  -verbose -batch_size 10 -beam_size 1 -seed 1 -random_sampling_topk "-1" -random_sampling_temp 0.0001 -tgt data/morph/tgt.valid -out /tmp/trans; diff  data/morph/tgt.valid /tmp/trans
+        # test tool
+        - PYTHONPATH=$PYTHONPATH:. python tools/extract_embeddings.py -model onmt/tests/test_model.pt

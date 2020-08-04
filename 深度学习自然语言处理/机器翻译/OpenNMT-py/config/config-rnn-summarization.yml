@@ -1,0 +1,31 @@
+data: data/cnndm/CNNDM
+save_model: models/cnndm
+save_checkpoint_steps: 10000
+keep_checkpoint: 10
+seed: 3435
+train_steps: 100000
+valid_steps: 10000
+report_every: 100
+
+encoder_type: brnn
+word_vec_size: 128
+rnn_size: 512
+layers: 1
+
+optim: adagrad
+learning_rate: 0.15
+adagrad_accumulator_init: 0.1
+max_grad_norm: 2
+
+batch_size: 16
+dropout: 0.0
+
+copy_attn: 'true'
+global_attention: mlp
+reuse_copy_attn: 'true'
+bridge: 'true'
+
+world_size: 2
+gpu_ranks:
+- 0
+- 1

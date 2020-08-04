@@ -1,0 +1,10 @@
+cffi
+torchvision
+joblib
+librosa
+Pillow
+git+git://github.com/pytorch/audio.git@d92de5b97fc6204db4b1e3ed20c03ac06f5d53f0
+pyrouge
+opencv-python
+git+https://github.com/NVIDIA/apex
+pretrainedmodels

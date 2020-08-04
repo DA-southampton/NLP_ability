@@ -1,0 +1,100 @@
+#Anything in this file, followed by a period (and an upper-case word), does NOT indicate an end-of-sentence marker.
+#Special cases are included for prefixes that ONLY appear before 0-9 numbers.
+
+#any single upper case letter  followed by a period is not a sentence ender (excluding I occasionally, but we leave it in)
+#usually upper case letters are initials in a name
+A
+Ā
+B
+C
+Č
+D
+E
+Ē
+F
+G
+Ģ
+H
+I
+Ī
+J
+K
+Ķ
+L
+Ļ
+M
+N
+Ņ
+O
+P
+Q
+R
+S
+Š
+T
+U
+Ū
+V
+W
+X
+Y
+Z
+Ž
+
+#List of titles. These are often followed by upper-case names, but do not indicate sentence breaks
+dr
+Dr
+med
+prof
+Prof
+inž
+Inž
+ist.loc
+Ist.loc
+kor.loc
+Kor.loc
+v.i
+vietn
+Vietn
+
+#misc - odd period-ending items that NEVER indicate breaks (p.m. does NOT fall into this category - it sometimes ends a sentence)
+a.l
+t.p
+pārb
+Pārb
+vec
+Vec
+inv
+Inv
+sk
+Sk
+spec
+Spec
+vienk
+Vienk
+virz
+Virz
+māksl
+Māksl
+mūz
+Mūz
+akad
+Akad
+soc
+Soc
+galv
+Galv
+vad
+Vad
+sertif
+Sertif
+folkl
+Folkl
+hum
+Hum
+
+#Numbers only. These should only induce breaks when followed by a numeric sequence
+# add NUMERIC_ONLY after the word for this function
+#This case is mostly for the english "No." which can either be a sentence of its own, or
+#if followed by a number, a non-breaking prefix
+Nr #NUMERIC_ONLY# 

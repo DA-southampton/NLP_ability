@@ -1,0 +1,53 @@
+#
+# Cantonese (Chinese)
+#
+# Anything in this file, followed by a period, 
+# does NOT indicate an end-of-sentence marker.
+#
+# English/Euro-language given-name initials (appearing in
+# news, periodicals, etc.)
+A
+Ā
+B
+C
+Č
+D
+E
+Ē
+F
+G
+Ģ
+H
+I
+Ī
+J
+K
+Ķ
+L
+Ļ
+M
+N
+Ņ
+O
+P
+Q
+R
+S
+Š
+T
+U
+Ū
+V
+W
+X
+Y
+Z
+Ž
+
+# Numbers only. These should only induce breaks when followed by
+# a numeric sequence.
+# Add NUMERIC_ONLY after the word for this function. This case is
+# mostly for the english "No." which can either be a sentence of its
+# own, or if followed by a number, a non-breaking prefix.
+No #NUMERIC_ONLY#
+Nr #NUMERIC_ONLY#
