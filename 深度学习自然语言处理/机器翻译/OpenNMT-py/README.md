@@ -1,4 +1,4 @@
-机器翻译竞赛-唱园杯-Pytorch代码
+# 机器翻译竞赛-唱园杯-Pytorch代码-Baseline
 
 几天前看到一个机器翻译竞赛，本来想要积累一下中英文翻译数据，后来发现是编码之后的数据...就没有然后了。所以就没有花太多时间去做这个东西，简单跑了一个baselines，线上分数大概是：。因为没想上分，就把代码分享给大家。
 
@@ -25,7 +25,7 @@ cuda==9.0
 
 其中文件内容格式为每行为一句文本，以空格进行分割。
 
-对于唱园杯的数据，我们需要对其进行一些简单的修改，以满足上面的要求，我这边给出一个简单的处理代码，以字为单位：
+对于唱园杯的数据，我们需要对其进行一些简单的修改，以满足上面的要求，我这边给出一个简单的处理代码，以字为单位，代码文件名称为「process_ori_data.py」：
 
 ```pyth9on
 file=open('train_data.csv','r')
@@ -81,6 +81,8 @@ nohup python preprocess.py -train_src data/src-train.txt -train_tgt data/tgt-tra
 
 直接使用 Transformer 进行训练。Opennmt使用特定参数复现了 Transformer 的效果，这里我们直接套用就可以。
 
+或者你可以使用全部数据双向预测，只需要训练一个模型就可以，不过我没有尝试，有兴趣的可以去试一试。
+
 ```python
 nohup python train.py -data data/data -save_model data-model \
         -layers 6 -rnn_size 512 -word_vec_size 512 -transformer_ff 2048 -heads 8  \
@@ -102,3 +104,11 @@ nohup python train.py -data data/data -save_model data-model \
 ```python
 python  translate.py  -model demo-model_200000.pt -src data/src-test.txt -output pred.txt 
 ```
+
+## 优化思路
+
+因为是编码之后的数据，所有常规的优化没啥用，这里简单提两个：
+
+1. 使用全部数据（训练数据和测试数据）训练Word2vec/Glove/Bert 等，然后作为输入，从而加入先验信息
+
+2. 如果不想自己训练，可以使用词频对应到编码之后的数据，得到一个大致的结果，从而可以使用我们正常的word2vec/glove/bert
