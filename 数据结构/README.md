@@ -1,10 +1,14 @@
 | 二分查找                   | 进度         |
 | ------------------------------------------------------------ | ------------ |
 |[69求平方根](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/69-%E6%B1%82%E5%B9%B3%E6%96%B9%E6%A0%B9.md)|代码待更新|
+|[Leetcode-33-搜索旋转排序数组-二分查找](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/Leetcode-33-%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.md)|已经完成并上传|
+
 
 | 动态规划                       | 进度         |
 | ------------------------------------------------------------ | ------------ |
 |[279.完全平方数](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/279.%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md)|代码待更新|
+|[剑指Offer27-二叉树的镜像-递归](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%89%91%E6%8C%87Offer27-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F-%E9%80%92%E5%BD%92.md)|已经完成并上传|
+|[剑指offer-07-重建二叉树-递归](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%89%91%E6%8C%87offer-07-%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91-%E9%80%92%E5%BD%92.md)|已经完成并上传|
 
 
 | 二叉树                           | 进度         |
@@ -28,3 +32,7 @@
 |[11-盛最多的水-数组&双指针](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/11-%E7%9B%9B%E6%9C%80%E5%A4%9A%E7%9A%84%E6%B0%B4-%E6%95%B0%E7%BB%84%26%E5%8F%8C%E6%8C%87%E9%92%88.md)|已经上传|
 |[167-两数之和II-输入有序数组-数组&双指针](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/167-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8CII-%E8%BE%93%E5%85%A5%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84-%E6%95%B0%E7%BB%84%26%E5%8F%8C%E6%8C%87%E9%92%88.md)|已经完成并上传|
 
+
+| 杂七杂八                           | 进度         |
+| ------------------------------------------------------------ | ------------ |
+|[Leetcode31-下一个排列-数组翻转](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/Leetcode31-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%8E%92%E5%88%97-%E6%95%B0%E7%BB%84%E7%BF%BB%E8%BD%AC.md)|已经完成并上传|
