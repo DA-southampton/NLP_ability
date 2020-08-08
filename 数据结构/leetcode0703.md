@@ -1,28 +1,3 @@
-## 31 下一个排列
-题目
-https://leetcode-cn.com/problems/next-permutation/
-
-LeetCode 题解 | 31. 下一个排列 - 力扣（LeetCode）的文章 - 知乎
-https://zhuanlan.zhihu.com/p/45007701
-才发现现在是有官方题目解析的
-
-题目解析： 
-https://blog.csdn.net/fuxuemingzhu/article/details/82113409
-
-核心思想，我的理解是这样的
-1　　2　　7　　4　　3　　1
-7431 是一个完全降序的排列，对于一个完全降序的排列，你只能变成一个最小值才是他的下一个序列
-
-也就是 1 2 1 3 4 7
-还需要注意一点，这个针对的是 7 4 3 1 
-我们好需要看到 2 ，应该让序列增大一个，也就是把大于2的这个值和2调换顺序
-
-## 搜索旋转排序数组
-题目在这里： https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
-题目解析在这里 https://blog.csdn.net/fuxuemingzhu/article/details/79534213
-
-我的理解是这样的，是一个二分查找的问题
-首先判断哪边是有序的，然后判断我这个值应该出现在有序的还是无序的那边，从而移动左右指针，继续进一步二分查找
 
 
 ## 39 组合综合
