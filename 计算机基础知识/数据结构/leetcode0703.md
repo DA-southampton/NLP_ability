@@ -1,17 +1,3 @@
-
-
-## 39 组合综合
-给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
-
-
-题目链接：
-https://leetcode-cn.com/problems/combination-sum/
-题目解析：
-https://blog.csdn.net/fuxuemingzhu/article/details/79322462
-
-
-本质是个递归，依次遍历数组元素，当前元素和target与之前元素的差值的大小比较，直至为0
-
 ## 46全排列
 设计到一个回溯方法
 这里有一个回溯方法总结
