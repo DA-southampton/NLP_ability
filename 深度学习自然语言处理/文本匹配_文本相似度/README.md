@@ -180,11 +180,8 @@ SiamGRU的损失函数应该是什么？数据格式是输入一个句子对，�
 
 如果你认为这里是一个标量，就是很大的问题，标量如何接全连接层最终做二分类呢？
 
-参考链接：
-https://zhuanlan.zhihu.com/p/48188731
-
 代码实现部分参考：
-https://github.com/DA-southampton/text4match/blob/e0cd529e23612695a4b14da98a4890d93d113c85/text4match/model.py#L82
+https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E6%96%87%E6%9C%AC%E5%8C%B9%E9%85%8D_%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6/src/models.py
 
 ##### 3.2 ESIM
 
@@ -217,7 +214,7 @@ https://github.com/DA-southampton/text4match/blob/e0cd529e23612695a4b14da98a4890
 最后我们用获得的向量拼接输入到另一个编码器，输出pool接全连接就可以了，这块没有什么好说的。
 
 代码参考链接：
-https://github.com/DA-southampton/text4match/blob/e0cd529e23612695a4b14da98a4890d93d113c85/text4match/model.py#L14
+https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E6%96%87%E6%9C%AC%E5%8C%B9%E9%85%8D_%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6/src/models.py
 
 #### 总结
 
@@ -247,3 +244,6 @@ https://zhuanlan.zhihu.com/p/40741576
 
 常见文本相似度计算方法简介 - 李鹏宇的文章 - 知乎
 https://zhuanlan.zhihu.com/p/88938220
+
+参考链接：
+https://zhuanlan.zhihu.com/p/48188731
