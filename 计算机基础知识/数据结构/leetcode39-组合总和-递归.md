@@ -9,6 +9,7 @@ leetcode39-组合总和-递归
 所有数字（包括 target）都是正整数。
 解集不能包含重复的组合。 
 
+题目解析参考地址：https://blog.csdn.net/fuxuemingzhu/article/details/79322462
 
 
 解析：
@@ -22,7 +23,7 @@ leetcode39-组合总和-递归
 看代码：
 
 ```python
-
+## 代码已经通过leetcode的测试
 class Solution(object):
     def combinationSum(self, candidates, target):
         """

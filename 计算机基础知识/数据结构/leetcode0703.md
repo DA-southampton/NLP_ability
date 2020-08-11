@@ -19,18 +19,6 @@ https://zhuanlan.zhihu.com/p/63252392
 这道题的核心在于实时维持一个可以达到的最大位置，如果此时的索引大于这个值，说明根本到不了这里
 
 
-## 62 不同路径
-题目位置：https://leetcode-cn.com/problems/unique-paths/
-题目解析：https://zhuanlan.zhihu.com/p/43358393
-
-本质是一个规律问题
-
-## 64 最小路径和
-题目位置：https://leetcode-cn.com/problems/minimum-path-sum/
-解析：https://blog.csdn.net/weixin_38278334/article/details/89930610
-
-这个其实和62很类似，我觉得本质的思想在于：当前点的值不是来自上方和我自身相加，就是左边的值和我自身相加，那么我选择最小的那个
-确保我自身是最小的就可以。
 
 ## 215 数组中的最大第K个元素
 题目：https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
