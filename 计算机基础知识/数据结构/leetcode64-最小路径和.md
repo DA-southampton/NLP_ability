@@ -1,4 +1,4 @@
-leetcode64-最小路径和
+leetcode64-最小路径和-找规律
 
 题目地址：https://leetcode-cn.com/problems/minimum-path-sum/
 

@@ -10,6 +10,7 @@
 |[剑指Offer27-二叉树的镜像-递归](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%89%91%E6%8C%87Offer27-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F-%E9%80%92%E5%BD%92.md)|已经完成并上传|
 |[剑指offer-07-重建二叉树-递归](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%89%91%E6%8C%87offer-07-%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91-%E9%80%92%E5%BD%92.md)|已经完成并上传|
 |[leetcode39-组合总和-递归](https://github.com/DA-southampton/NLP_ability/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/leetcode39-%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C-%E9%80%92%E5%BD%92.md)|已经完成并上传|
+|[leetcode17电话号码-递归](leetcode17电话号码-递归.md)|已经完成并上传|
 
 
 | 二叉树                           | 进度         |
@@ -37,3 +38,5 @@
 | 杂七杂八                           | 进度         |
 | ------------------------------------------------------------ | ------------ |
 |[Leetcode31-下一个排列-数组翻转](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/Leetcode31-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%8E%92%E5%88%97-%E6%95%B0%E7%BB%84%E7%BF%BB%E8%BD%AC.md)|已经完成并上传|
+|[leetcode62-不同路径-找规律](./leetcode62-不同路径-找规律.md)|已经完成并上传|
+|[leetcode64-最小路径和-找规律](leetcode64-最小路径和.md)|已经完成并上传|
