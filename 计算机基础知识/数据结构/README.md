@@ -43,3 +43,8 @@
 |[leetcode64-最小路径和-找规律](leetcode64-最小路径和.md)|已经完成并上传|
 |[剑指offer24-反转链表-规律](./剑指offer24-反转链表-规律.md)|已经完成并上传|
 |[排序算法](./排序算法.md)|冒泡排序-快速排序-ing|
+
+
+参考链接：
+https://github.com/geekxh/hello-algorithm
+https://github.com/MisterBooo/LeetCodeAnimation 用动画
