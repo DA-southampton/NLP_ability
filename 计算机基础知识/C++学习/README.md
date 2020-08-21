@@ -15,6 +15,8 @@ https://www.bilibili.com/video/BV1et411b73Z?from=search&seid=6644477417302324256
 这里我参考视频：
 https://www.bilibili.com/video/BV14W411q7kb?from=search&seid=15106431911234540469
 
+仓库地址在这里： https://github.com/DA-southampton/MiniDL
+
 必须从实战出发去学习，一步步调试，一步步改进
 
 3. 看Fasttext源代码
