@@ -4,7 +4,7 @@
 
 ## 深度学习自然语言处理
 
-### Transformer/Bert
+### Transformer
 
 | Transformer 相关知识                                         | 进度         |
 | ------------------------------------------------------------ | ------------ |
@@ -20,6 +20,8 @@
 |[谈一谈Decoder模块](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/%E8%B0%88%E4%B8%80%E8%B0%88Decoder%E6%A8%A1%E5%9D%97.md)|已经完成并上传|
 |[Transformer的并行化](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/Transformer%E7%9A%84%E5%B9%B6%E8%A1%8C%E5%8C%96.md)|已经完成并上传|
 |[Transformer全部文章合辑](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/%E7%AD%94%E6%A1%88%E5%90%88%E8%BE%91.md)|已经完成并上传|
+
+### Bert
 
 | Bert 相关知识                                         | 进度         |
 | ------------------------------------------------------------ | ------------ |
