@@ -88,8 +88,9 @@
 
 | 命名体识别相关资源         | 进度         |
 | -------------------------- | ------------ |
+|[命名体识别资源梳理(代码+博客讲解)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%91%BD%E5%90%8D%E4%BD%93%E8%AF%86%E5%88%AB/%E5%91%BD%E5%90%8D%E4%BD%93%E8%AF%86%E5%88%AB%E8%B5%84%E6%BA%90%E6%A2%B3%E7%90%86(%E4%BB%A3%E7%A0%81%2B%E5%8D%9A%E5%AE%A2%E8%AE%B2%E8%A7%A3).md)|已经上传|
 | [HMM/CRF 详细解读](./深度学习自然语言处理/命名体识别/HMM_CRF.md)         | 已经上传 |
-| BiLstm-CRF详细解读         |  |
+| [工业级命名体识别的做法](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%91%BD%E5%90%8D%E4%BD%93%E8%AF%86%E5%88%AB/%E5%B7%A5%E4%B8%9A%E7%BA%A7%E5%91%BD%E5%90%8D%E4%BD%93%E8%AF%86%E5%88%AB%E7%9A%84%E5%81%9A%E6%B3%95.md)        | 已经上传 |
 | 手撕BiLSTM-CRF代码         |      |
 | 词典匹配命名体识别详细解读 |  |
 | 命名体识别最新进展         |      |
