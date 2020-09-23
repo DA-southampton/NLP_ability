@@ -81,9 +81,8 @@
 | 关键词提取相关知识      | 进度         |
 | ----------------------- | ------------ |
 |[基于词典的正向/逆向最大匹配](./深度学习自然语言处理/关键词提取/中文分词/基于词典的正向最大匹配和逆向最大匹配中文分词.md)|已经上传|
-| TFIDF模型提取关键词解读 | |
-| TextRank提取关键词      |  |
-| 各种dirty工作技巧       |  |
+|[实体库构建：大规模离线新词实体挖掘](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/%E5%AE%9E%E4%BD%93%E5%BA%93%E6%9E%84%E5%BB%BA%EF%BC%9A%E5%A4%A7%E8%A7%84%E6%A8%A1%E7%A6%BB%E7%BA%BF%E6%96%B0%E8%AF%8D%E5%AE%9E%E4%BD%93%E6%8C%96%E6%8E%98.md)|已经上传|
+|[聊一聊NLPer如何做关键词抽取](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E6%96%B9%E6%B3%95%E7%BB%BC%E8%BF%B0.md)|已经上传|
 
 ###  命名体识别
 
@@ -139,7 +138,7 @@
 | ----------- | ---- |
 |[pytorch对text数据的预处理-综述](https://github.com/DA-southampton/NLP_ability/blob/master/Pytorch/pytorch%E5%AF%B9text%E6%95%B0%E6%8D%AE%E7%9A%84%E9%A2%84%E5%A4%84%E7%90%86-%E7%BB%BC%E8%BF%B0.md)      |    已经上传  |
 |[pytorch处理文本数据代码版本1-处理文本相似度数据](https://github.com/DA-southampton/NLP_ability/blob/master/Pytorch/pytorch%E5%A4%84%E7%90%86%E6%96%87%E6%9C%AC%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC1-%E5%A4%84%E7%90%86%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%95%B0%E6%8D%AE.md)       |  已经上传    |
-| [pytorch处理文本数据代码版本2-处理文本相似度数据](https://github.com/DA-southampton/NLP_ability/blob/master/Pytorch/pytorch%E5%A4%84%E7%90%86%E6%96%87%E6%9C%AC%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC2-%E5%A4%84%E7%90%86%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%95%B0%E6%8D%AE.md)       |   已经上传你   |
+| [pytorch处理文本数据代码版本2-处理文本相似度数据](https://github.com/DA-southampton/NLP_ability/blob/master/Pytorch/pytorch%E5%A4%84%E7%90%86%E6%96%87%E6%9C%AC%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC2-%E5%A4%84%E7%90%86%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%95%B0%E6%8D%AE.md)       |   已经上传  |
 |[Pytorch中mask attention是如何实现的代码版本1-阅读文本相似度模型的小总结](https://github.com/DA-southampton/NLP_ability/blob/master/Pytorch/Pytorch%E4%B8%ADmask%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC1-%E9%98%85%E8%AF%BB%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%A8%A1%E5%9E%8B.md)||
 
 | Pytorch调参总结                                              |      |
