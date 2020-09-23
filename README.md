@@ -57,8 +57,8 @@
 | --------------------------- | ---------- |
 | [Fasttext详解解读(1)-文本分类](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Fasttext%E8%A7%A3%E8%AF%BB(1).md) |  已经完成并上传 |
 | [Fasttext详解解读(2)-训练词向量](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/Fasttext%E8%A7%A3%E8%AF%BB(2).md) | 已经完成并上传 |
-| Fasttext源码详细解读(C++版) | |
 | [GLove细节详细解读](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E8%AF%8D%E5%90%91%E9%87%8F/%E8%81%8A%E4%B8%80%E4%B8%8BGlove.md)         |  已经完成并上传|
+| Fasttext源码详细解读(C++版) | |
 
   
 
@@ -101,7 +101,7 @@
 
 | 文本分类相关知识                         | 进度         |
 | ---------------------------------------- | ------------ |
-| TextCNN论文详细解读                      |  |
+| [TextCNN论文详细解读](./深度学习自然语言处理/文本分类/CNN文本分类解读.md)                      | 已经上传 |
 | 手撕 TextCNN/Fasttext/Albert 文本分类    |  |
 | TextCNN/Fasttext/Albert 实际工作应用经验 |  |
 | 多标签文本分类                           |     |
@@ -113,9 +113,9 @@
 | 机器翻译相关知识                      | 进度 |
 | ------------------------------------- | ---- |
 | [OpenNMT源代码解读(pytorch版)-baseline操作OpenNMT-py](https://github.com/DA-southampton/NLP_ability/tree/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91/OpenNMT-py)  | 已经完成并上传|
+|[BPE论文解读](./深度学习自然语言处理/机器翻译/bpe-subword论文的我的阅读总结.md)|已经上传|
 | 手撕Seq2seq-attention机器翻译代码     |      |
 | 基于seq2seq机器翻译的各种优化策略解读 |      |
-| subword相关论文详细解读               |      |
 | ConS2S论文详细解读                    |      |
 | GNMT论文详细解读                      |      |
 | Seq2seq过程图画版详细解读             |      |
