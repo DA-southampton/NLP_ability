@@ -21,14 +21,23 @@
 |[Transformer的并行化](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/Transformer%E7%9A%84%E5%B9%B6%E8%A1%8C%E5%8C%96.md)|已经完成并上传|
 |[Transformer全部文章合辑](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/%E7%AD%94%E6%A1%88%E5%90%88%E8%BE%91.md)|已经完成并上传|
 
-### Bert
+### Bert-基本知识
 
 | Bert 相关知识                                         | 进度         |
 | ------------------------------------------------------------ | ------------ |
+|[FastBERT-CPU推理加速10倍](./深度学习自然语言处理/Bert/FastBert.md)|已经完成并上传|
 |[Bert如何融入知识(一)-百度和清华ERINE](./深度学习自然语言处理/Bert/Bert如何融入知识一-百度和清华ERINE.md)|百分之五十|
 |[Bert如何融入知识二-Bert融合知识图谱](./深度学习自然语言处理/Bert/Bert如何融入知识二-Bert融合知识图谱.md)|百分之十|
 |[Bert的可视化-Bert每一层都学到了什么](./深度学习自然语言处理/Bert/Bert的可视化-Bert每一层都学到了什么.md)|百分之十|
 |[Bert各种后续预训练模型-预训练模型的改进](./深度学习自然语言处理/Bert/Bert各种后续预训练模型-预训练模型的改进.md)|百分之十|
+
+### Bert-知识蒸馏
+| 模型蒸馏相关知识                         | 进度         |
+| ---------------------------------------- | ------------ |
+|[什么是知识蒸馏](./深度学习自然语言处理/模型蒸馏/什么是知识蒸馏.md)|已经完成|
+|[如何让 TextCNN 逼近 Bert](./深度学习自然语言处理/模型蒸馏/bert2textcnn模型蒸馏.md)| 已经完成|
+|[Bert蒸馏到简单网络lstm](./深度学习自然语言处理/模型蒸馏/Bert蒸馏到简单网络lstm.md)|已经完成|
+
 
 ### 词向量-word embedding
 
@@ -127,12 +136,6 @@
 | [层次分类体系的必要性-多模态讲解系列(1)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E5%B1%82%E6%AC%A1%E5%88%86%E7%B1%BB%E4%BD%93%E7%B3%BB%E7%9A%84%E5%BF%85%E8%A6%81%E6%80%A7-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%AE%B2%E8%A7%A3%E7%B3%BB%E5%88%97(1).md) | 完成   |
 | [文本和图像特征表示模块详解-多模态讲解系列(2)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E6%96%87%E6%9C%AC%E5%92%8C%E5%9B%BE%E5%83%8F%E7%89%B9%E5%BE%81%E8%A1%A8%E7%A4%BA%E6%A8%A1%E5%9D%97%E8%AF%A6%E8%A7%A3-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%AE%B2%E8%A7%A3%E7%B3%BB%E5%88%97(2).md) | 完成   |
 | [层次体系具体是如何构建的-多模态讲解系列(3)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%A4%9A%E6%A8%A1%E6%80%81/%E5%B1%82%E6%AC%A1%E4%BD%93%E7%B3%BB%E7%9A%84%E6%9E%84%E5%BB%BA-%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%A3%E6%9E%90(3).md) | 待完成 |
-
-### 模型蒸馏
-| 模型蒸馏相关知识                         | 进度         |
-| ---------------------------------------- | ------------ |
-|    [如何让 TextCNN 逼近 Bert](./深度学习自然语言处理/模型蒸馏/bert2textcnn模型蒸馏.md)              |  |
-
 
 
 ## Pytorch

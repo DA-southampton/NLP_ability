@@ -59,6 +59,21 @@ Bert类模型精读高，但是推理速度慢，模型蒸馏可以在速度和�
 知识蒸馏论文选读（二） - 小禅心的文章 - 知乎
 https://zhuanlan.zhihu.com/p/89420539
 
+
+
+
+关于模型蒸馏，我就简单了解到这里，可能之后会花费大量精力看看背的蒸馏方式，放上开源代码：
+
+[bert到lstm的蒸馏](https://github.com/DA-southampton/knowledge-distillation)
+
+[bert到textcnn/lstm/lkeras/torch](https://github.com/DA-southampton/bert_distill)
+
+[一个pytorch实现的模型蒸馏库](https://github.com/DA-southampton/KD_Lib)
+
+
+
+
+
 罗列一下关于Bert模型蒸馏的文章和博客：
 
 首先一个讲的比较好的文章就是下面这个文章，比较系统的讲了一遍
