@@ -167,6 +167,10 @@
 
 | 推荐系统相关知识                       | 进度         |
 | -------------------------------------- | ------------ |
+|[聊一下Wide&Deep](./推荐/WDl.md)|已经完成|
+|[FM模型简单介绍](./推荐/FM.md)|已经完成|
+|[FM模型简单介绍](./推荐/FM.md)|已经完成|
+|[DeepFM模型简单介绍](./推荐/deepfm.md)|已经完成|
 | [各种关于推荐的好文章资源总结-看到比较不错的就放上来](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%8E%A8%E8%8D%90/%E6%8E%A8%E8%8D%90%E8%B5%84%E6%BA%90%E6%9B%B4%E6%96%B0.md)                  |  |
 |[度学习在推荐系统中的应用](https://mp.weixin.qq.com/s?__biz=MzI1NjM1ODEyMg==&mid=2247484656&idx=1&sn=35845ab0839807a314d6e500d9384bf1&chksm=ea26a775dd512e63ec800bf4f0d162e421531776ca86c0147ae7711b2541bfe87ecfb6104169&scene=21#wechat_redirect)|这个作者写的非常好|
 |[推荐系统特征构建](https://zhuanlan.zhihu.com/p/221783604)||
