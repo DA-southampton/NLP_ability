@@ -1,6 +1,6 @@
 [PKD](https://arxiv.org/pdf/1908.09355.pdf "Patient Knowledge Distillation for BERT Model Compression")  核心点就是不仅仅从Bert（老师网络）的最后一层学习知识去做蒸馏，它还另加了一部分，就是从**Bert的中间层去学习**。
 
-简单说，PKD的知识来源有两部分：**中间层+最后一层**。
+简单说，PKD的知识来源有两部分：**中间层+最后输出**。
 
 它缓解了之前只用最后softmax输出层的蒸馏方式出现的过拟合而导致泛化能力降低的问题。
 
