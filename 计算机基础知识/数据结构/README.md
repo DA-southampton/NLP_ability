@@ -47,6 +47,8 @@
 |[剑指offer40-最小的K个数字](./剑指offer40-最小的K个数字.md)|完成堆排序|
 |[450二叉搜索树的删除某个节点_递归](./450二叉搜索树的删除某个节点_递归.md)|完成|
 |[leetcode701-二叉搜索树插入某个节点](./leetcode701-二叉搜索树插入某个节点.md)|完成|
+|[leetcode200岛屿数量-深度优先搜索](./leetcode200岛屿数量-深度优先搜索.md)||
+|[leetcode300-最长上升子序列长度](./leetcode300-最长上升子序列长度.md)||
 
 参考链接：
 https://github.com/geekxh/hello-algorithm

@@ -36,7 +36,7 @@
 2. [如何让 TextCNN 逼近 Bert](./深度学习自然语言处理/模型蒸馏/bert2textcnn模型蒸馏.md)
 3. [Bert蒸馏到简单网络lstm](./深度学习自然语言处理/模型蒸馏/Bert蒸馏到简单网络lstm.md)
 4. [PKD-Bert基于多层的知识蒸馏方式](./深度学习自然语言处理/模型蒸馏/PKD-Bert基于多层的知识蒸馏方式.md)
-
+5. [Theseus-模块压缩交替训练](./深度学习自然语言处理/模型蒸馏/Theseus-模块压缩交替训练.md)
 
 ### 词向量-word embedding
 
