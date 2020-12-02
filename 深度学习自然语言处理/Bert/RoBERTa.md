@@ -1,6 +1,6 @@
 RoBERTa：更大更多更强
 
-今天分享一个Bert的改进工作[RoBERTa]( A Robustly Optimized BERT Pretraining Approach, "RoBERTa: A Robustly Optimized BERT Pretraining Approach")。RoBERTa是训练充分的Bert。
+今天分享一个Bert的改进工作[RoBERTa](https://arxiv.org/abs/1907.11692, "RoBERTa: A Robustly Optimized BERT Pretraining Approach")。RoBERTa是训练充分的Bert。
 
 主要掌握以下几点，与Bert相比较，RoBERTa预训练的时候：
 
@@ -18,7 +18,7 @@ RoBERTa：更大更多更强
 
 比如我们句子为：今天去哪里吃饭啊？
 
-mask之后为：今天去哪里[maks]饭啊？
+mask之后为：今天去哪里[mask]饭啊？
 
 每次训练使用同一个mask样本，那么模型见得就少。
 
@@ -30,9 +30,9 @@ mask之后为：今天去哪里[maks]饭啊？
 
 复制原始样本10份，每份都做不同的静态mask，然后进行训练。
 
-我们想一下这个过程：比如我仍然是训练40个epoches，复制了十份样本，相当于每4个epoches使用的是同一个mask的样本。也就是Bert模型会在训练过程中，看到同一个句子的4次不同的mask形式。
+我们想一下这个过程：比如我仍然是训练40个epoches，复制了十份样本，相当于每4个epoches使用的是同一个mask的样本。
 
-这个操作确实缓解了静态掩码的问题，但是毕竟还有重复的情况出现。
+这个操作确实缓解了静态掩码的问题，但是毕竟还有重复mask的情况出现。
 
 这个时候其实有个朴素的思想，为啥不直接复制40份，然后分在40个epoches中进行训练，这个到时候写Bert的时候再说。
 
