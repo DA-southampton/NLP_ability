@@ -90,16 +90,7 @@ RoBERTa 是咋做的呢？
 1. 动态掩码：comparable or slightly better
 2. 去掉NSP任务并且更改数据输入格式为全部填充可以跨越多个文档
 3. 更多数据，更大bsz，更多的步数，更长训练时间
+4. **动态掩码那里，说到一个复制10份的细节，那里是针对的Bert，RoBERTa是每次输入之前才mask，注意区分，不要搞混**
 
-我自己还比较感兴趣的一点在输入数据实验中，有SENTENCE-PAIR+NSP一种情况。
-
-也就是输入的是一对句子，正常的Bert的输入格式是一对segment，每个segment可以有多个句子。这样最后可以更好的填充到512。
-
-在使用SENTENCE-PAIR+NSP这个的时候，作者提到：
-
-> Since these inputs are significantly shorter than 512 tokens, we increase the batch size so that the total number of tokens remains similar to SEGMENT-PAIR+NSP.
-
-感觉这是个很有意思的点，我自己理解是看似提升的是token的数量，实际上是在提升训练模型的时候的信息量。
-
-毕竟输入的token少了，那么计算的信息量就少了，毕竟mask填充为0的就多了。所以提升bsz，可以保证SENTENCE-PAIR+NSP这种输入模型下的信息量可以和Bert的原始输入相媲美。
+参考资料：RoBERTa: 捍卫BERT的尊严 - yangDDD的文章 - 知乎 https://zhuanlan.zhihu.com/p/149249619
 
