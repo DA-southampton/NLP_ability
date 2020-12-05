@@ -1,6 +1,6 @@
 ALBERT：更小更少但并不快
 
-今天分享[ALBERT](https://arxiv.org/pdf/1909.11942.pdf, "ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS")，先说一个细节，同等规格的ALBERT和BERT相比，虽然ALBERT参数量少了，但是计算量并未降低，速度也并没有快多少。
+今天分享[ALBERT](https://arxiv.org/pdf/1909.11942.pdf, "ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS")，先说一个细节，同等规格的ALBERT和BERT相比，虽然ALBERT参数量少了，但是计算量并未降低。
 
 举个形象的例子就是，（这个例子并不严谨，只是帮助理解）参数共享让它训练的时候把多层压缩为一层去训练，但是在预测的时候，我们需要再展开多层去进行预测。
 
@@ -31,7 +31,7 @@ Albert 的参数分解是这样的，将这个矩阵分解为两个小矩阵：$
 
 跨层参数分享，这个操作可以防止参数随着网络层数的增大而增加。
 
-![跨层参数共享](/Users/zida/Desktop/%E8%B7%A8%E5%B1%82%E5%8F%82%E6%95%B0%E5%85%B1%E4%BA%AB.png)
+![跨层参数共享](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2020-12-04-063530.jpg)
 
 分为三种形式，只是共享attentions，只是共享FFN，全部共享。
 
@@ -49,11 +49,14 @@ NSP将主题预测和连贯性预测合并为一个单项任务
 
 但是，与连贯性预测相比，主题预测更容易学习，并且与使用MLM损失学习的内容相比，重叠性更大。
 
+- 从训练语料库中取出两个连续的段落作为正样本
+- 从不同的文档中随机创建一对段落作为负样本
+
 对于ALBERT，作者使用了句子顺序预测（SOP）损失，它避免了主题预测，而是着重于句间建模。
 
 其实就是预测句子顺序，正样本是顺着，负样本是颠倒过来。都是来自同一个文档。
 
-![SOP](/Users/zida/Desktop/SOP.png)
+![SOP](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2020-12-04-063528.jpg)
 
 
 
@@ -65,9 +68,21 @@ NSP将主题预测和连贯性预测合并为一个单项任务
 
 2. Masked-ngram-LM
 
-![Masked-ngram-LM](/Users/zida/Desktop/Masked-ngram-LM.png)
+![Masked-ngram-LM](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2020-12-04-063529.jpg)
 
 这就有点类似百度的ERINE和SpanBERT了
+
+3. 推测速度
+
+![ALBERT推理速度](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2020-12-04-064022.png)
+
+从图中知道，同一规模ALBERT和BERT，比如同为Base：
+
+BERT base: 4.7x；ALBERT base：5.6x；速度确实变快
+
+同等效果的情况下，比如BERT base（Avg=82.3）和ALBERT large（Avg=82.4）：
+
+BERT base：4.7x；ALBERT large：1.7x；速度变慢了
 
 # 总结
 
@@ -82,8 +97,7 @@ NSP将主题预测和连贯性预测合并为一个单项任务
 3. 词向量矩阵分解能减少参数，但是也会降低性能
 4. 跨层参数分享可以降低参数，也会降低性能，通过实验图知道，attention共享效果还好，FFN共享效果降低有点多
 5. 取消NSP，使用SOP，正负样本来自同一个文档，但是顺序不同。
-
-
+6. 推理速度来看，同等规格，ALBERT速度变快，同等效果，速度变慢；
 
 参考链接：
 
