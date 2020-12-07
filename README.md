@@ -32,7 +32,8 @@
 6. [RoBERTa：更多更大更强](./深度学习自然语言处理/Bert/RoBERTa.md)
 7. [为什么Bert做不好无监督语义匹配](./深度学习自然语言处理/Bert/为什么Bert做不好无监督语义匹配.md)
 8. [UniLM:为Bert插上文本生成的翅膀](./深度学习自然语言处理/Bert/UniLM.md)-公众号
-9. [tBERT-BERT融合主题模型做文本匹配](./深度学习自然语言处理/Bert/tBERT-BERT融合主题模型.md)-公众号
+9. [tBERT-BERT融合主题模型做文本匹配](./深度学习自然语言处理/Bert/tBERT-BERT融合主题模型.md)
+10. [XLNET](./深度学习自然语言处理/Bert/XLNET.md)
 
 ### Bert-知识蒸馏
 
