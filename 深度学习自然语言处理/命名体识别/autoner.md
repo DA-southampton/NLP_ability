@@ -113,3 +113,15 @@ $L_{i}$对应的是在远程监督中，当前实体真实类型标签集合。�
 其次是autoner，将实体的识别和实体类别的识别分离，使用Tie/Break对token进行标记。对于实体的识别，需要跳过unkown类型，做二分类计算损失。对于实体类型的识别，尤其是多标签实体，使用软标签分布进行交叉熵的度量。
 
 Autoner不包含CRF，所以速度会快一点。
+
+参考资料：
+
+关于autoner讲的比较好的笔记：
+命名实体识别 NER 论文综述：那些年，我们一起追过的却仍未知道的花名 （一） - 除夕的文章 - 知乎
+https://zhuanlan.zhihu.com/p/135453456
+
+AutoNER: 在没有标记数据时，使用词典进行命名实体识别 - 张义策的文章 - 知乎
+https://zhuanlan.zhihu.com/p/99409904
+
+Named Entity Recognition - TAURUS的文章 - 知乎
+https://zhuanlan.zhihu.com/p/63109138
