@@ -92,6 +92,8 @@
 
 5. [autoner+fuzzy-CRF-使用领域词典做命名体识别](./深度学习自然语言处理/命名体识别/autoner.md)-公众号
 
+6. [FLAT-Transformer-词典+Transformer融合词汇信息](./深度学习自然语言处理/命名体识别/FLAT-Transformer.md)--公众号
+
 ###  文本分类
 
 1. [TextCNN论文详细解读](./深度学习自然语言处理/文本分类/CNN文本分类解读.md) 
