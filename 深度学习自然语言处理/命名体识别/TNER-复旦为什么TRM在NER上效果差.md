@@ -1,4 +1,4 @@
-[TRM](https://arxiv.org/pdf/1911.04474.pdf, "TENER: Adapting Transformer Encoder for Named Entity Recognition") 在其他NLP任务中效果很不错，但是在NER中表现不佳。为了解决性能不佳，论文做了几点改进。
+今天介绍复旦的一个论文[TENER](https://arxiv.org/pdf/1911.04474.pdf, "TENER: Adapting Transformer Encoder for Named Entity Recognition") ；普通的TRM在其他NLP任务中效果很不错，但是在NER中表现不佳。为了解决性能不佳，论文做了几点改进。
 
 主要掌握以下三点改进：
 
@@ -22,7 +22,7 @@
 
 简单概述普通TRM位置编码的问题，如下：
 
-普通TRM中的正弦位置编码能够捕捉到距离信息，但是不能捕捉到方向信息，因为它是对称的。而且这种基本性质（distance-awareness）会在sefl-attention消失；
+普通TRM中的正弦位置编码能够捕捉到距离信息，但是不能捕捉到方向信息。而且这种基本性质（distance-awareness）会在sefl-attention消失；
 
 为了改进这种问题，使用了经过改进的相对位置编码，弃用了绝对位置编码；
 
@@ -32,7 +32,7 @@
 
 点积结果画图表示如下：
 
-![点积](/Users/zida/Desktop/%25E7%2582%25B9%25E7%25A7%25AF.png)
+![点积](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2020-12-09-114414.png)
 
 从这个图，我们可以很清楚的看到，是对称的，也就是说在k=20和k=-20的时候，点击结果相同，换句话说，方向信息没有体现出来。
 
@@ -48,7 +48,7 @@
 
 # 3. attention缩放
 
-第二点是，传统TRM的attention分布被缩放了，从而变得平滑。但是对于NER来说，一个更加尖锐或者说稀疏的矩阵是更合适的，因为并不是所有的单词都需要被关注；一个当前的单词的类别，足够被周围几个单词确定出来。
+传统TRM的attention分布被缩放了，从而变得平滑。但是对于NER来说，一个更加尖锐或者说稀疏的矩阵是更合适的，因为并不是所有的单词都需要被关注；一个当前的单词的类别，足够被周围几个单词确定出来。
 
 矩阵越平滑，关注的单词越多，可能会引入更多的噪声信息。
 

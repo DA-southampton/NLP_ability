@@ -94,7 +94,7 @@
 
 6. [FLAT-Transformer-词典+Transformer融合词汇信息](./深度学习自然语言处理/命名体识别/FLAT-Transformer.md)--公众号
 
-7. [TNER-复旦为什么TRM在NER上效果差.md](./深度学习自然语言处理/命名体识别/TNER-复旦为什么TRM在NER上效果差.md)--公众号
+7. [TENER-复旦为什么TRM在NER上效果差.md](./深度学习自然语言处理/命名体识别/TNER-复旦为什么TRM在NER上效果差.md)
 
 ###  文本分类
 
