@@ -54,6 +54,6 @@
 
 # 4. 总结
 
-1. 原始TRM绝对位置编码不含有方向信息，Self-attention之后距离信息也会消失；故使用改进的相对位置编码和新的attention计算方式
+1. 原始TRM绝对位置编码不含有方向信息，Self-attention之后相对位置信息也会消失；故使用改进的相对位置编码和新的attention计算方式
 2. attention计算不使用缩放系数，减少了噪声信息
 3. 使用TRM进行char编码，结合预训练的词向量拼接输入TENER
