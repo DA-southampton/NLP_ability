@@ -37,14 +37,6 @@ UniLM做的就是这样一个事情。
 
 ![UniLM不同mask](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2020-12-03-074447.jpg)
 
-需要注意的一个小细节是对角线上的点是被参与attention的，因为即便当前被mask掉了，也是被编码的。这里允许被attention不代表能够被看见。
-
-比如：x1，x2，【mask】，x4
-
-单向LM中，x1，x2对于【mask】可以被看见，在编码的时候x1，x2和【mask】都会被编码计算。
-
-简单来说，UniLM是训练的一个双向的Encoder。
-
 # 3. 其他细枝末节
 
 1. Gelu 激励函数
@@ -68,7 +60,6 @@ Bert的时候，区分上下句子，我们使用0和1，在这里，我们使�
 2. 使用不同的attention矩阵控制三种任务形式的参与
 3. segment embedding可以区分不同的任务形式
 4. mask的时候15% 的有被替换的概率，其中80% 被真正替换。在这80%真正替换的里面有80%单个token被替换，20%的二元或者三元tokens被替换
-5. 被看见和被编码不太一样，注意看那张图。
 
 # 5. 加我微信，点赞之交
 

@@ -31,7 +31,7 @@
 5. [Bert各种后续预训练模型-预训练模型的改进](./深度学习自然语言处理/Bert/Bert各种后续预训练模型-预训练模型的改进.md)----百分之十
 6. [RoBERTa：更多更大更强](./深度学习自然语言处理/Bert/RoBERTa.md)
 7. [为什么Bert做不好无监督语义匹配](./深度学习自然语言处理/Bert/为什么Bert做不好无监督语义匹配.md)
-8. [UniLM:为Bert插上文本生成的翅膀](./深度学习自然语言处理/Bert/UniLM.md)-公众号
+8. [UniLM:为Bert插上文本生成的翅膀](./深度学习自然语言处理/Bert/UniLM.md)
 9. [tBERT-BERT融合主题模型做文本匹配](./深度学习自然语言处理/Bert/tBERT-BERT融合主题模型.md)
 10. [XLNET](./深度学习自然语言处理/Bert/XLNET.md)
 
@@ -150,6 +150,10 @@
 7. [推荐系统特征构建](https://zhuanlan.zhihu.com/p/221783604)
 8. [推荐系统特征工程的万字理论](https://cloud.tencent.com/developer/article/1574246)
 9. [新商品类别embedding如何动态更新-增量更新embedding](https://zhuanlan.zhihu.com/p/77789278)
+
+## 公众号技术问题答疑汇总
+
+1. [20201210一周|技术问题答疑汇总](./深度学习自然语言处理/其他/20201210一周|技术问题答疑汇总.md)
 
 
 ## 模型部署
