@@ -27,7 +27,7 @@ class Solution:
             return 0
         dp = []
         for i in range(len(nums)):
-            dp.append(1)
+            dp.append(1)# 在i这个位置，最小是1
             for j in range(i):
                 if nums[i] > nums[j]:
                     dp[i] = max(dp[i], dp[j] + 1)
