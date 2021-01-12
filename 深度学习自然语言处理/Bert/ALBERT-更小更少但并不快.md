@@ -1,10 +1,14 @@
-ALBERT：更小更少但并不快
+BERT模型的压缩大致可以分为：1. 参数剪枝；2. 知识蒸馏；3. 参数共享；4. 低秩分解。
 
-今天分享[ALBERT](https://arxiv.org/pdf/1909.11942.pdf, "ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS")，先说一个细节，同等规格的ALBERT和BERT相比，虽然ALBERT参数量少了，但是计算量并未降低。
+其中，对于剪枝，比较简单，但是容易误操作降低精读；
+
+对于知识蒸馏，之前我写个一系列的文章，重点可以看一下这里：
+
+对于参数共享和低秩分解，就和今天分享的[ALBERT](https://arxiv.org/pdf/1909.11942.pdf, "ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS")息息相关；
+
+它减少了BERT的参数，但是需要注意的一个细节点是，同等规格下，ALBERT速度确实变快，但是并不明显（和大量自媒体文章解读给大家的印象差距很大）；
 
 举个形象的例子就是，（这个例子并不严谨，只是帮助理解）参数共享让它训练的时候把多层压缩为一层去训练，但是在预测的时候，我们需要再展开多层去进行预测。
-
-这点需要注意。
 
 主要掌握以下的几个知识点：
 
@@ -13,7 +17,7 @@ ALBERT：更小更少但并不快
 3. 取消NSP，使用SOP
 4. 预训练的时候采用更满的数据/n-gram mask方式
 
-# 1.Factorized embedding parameterization
+# 1.词向量嵌入分解
 
 词向量嵌入参数分解，简单说就是将词向量矩阵分解为了两个小矩阵，将隐藏层的大小和词汇矩阵的大小分离开。
 
@@ -27,7 +31,7 @@ Albert 的参数分解是这样的，将这个矩阵分解为两个小矩阵：$
 
 矩阵分解之后，我们可以只是做到提升隐层大小，而不去改变表词汇表的大小。
 
-# 2.cross-layer parameter sharing
+# 2.跨层参数分享
 
 跨层参数分享，这个操作可以防止参数随着网络层数的增大而增加。
 
@@ -39,18 +43,22 @@ Albert 的参数分解是这样的，将这个矩阵分解为两个小矩阵：$
 
 看表格我们可以发现一个细节，就是只是共享FFN比只是共享attention的参数，模型效果要降低的多。
 
-小声嘀咕一下，这是不是说明FFN比attention在信息表达上要重要啊。或者说attention在学习信息表达的时候。12层学习共性比较多。FFN学习到的差异性比较多。
+小声嘀咕一下，这是不是说明FFN比attention在信息表达上要重要啊。或者说attention在学习信息表达的时候。attention层学习共性比较多。FFN学习到的差异性比较多。这只是我自己的猜测哈。
 
-# 3. sentence-order prediction (SOP) 
+# 3. SOP
 
 作者认为，NSP不必要。与MLM相比，NSP失效的主要原因是其缺乏任务难度。
 
-NSP将主题预测和连贯性预测合并为一个单项任务
-
-但是，与连贯性预测相比，主题预测更容易学习，并且与使用MLM损失学习的内容相比，重叠性更大。
+NSP样本如下:
 
 - 从训练语料库中取出两个连续的段落作为正样本
 - 从不同的文档中随机创建一对段落作为负样本
+
+NSP将主题预测和连贯性预测合并为一个单项任务；
+
+
+但是，与连贯性预测相比，主题预测更容易学习，并且与使用MLM损失学习的内容相比，重叠性更大。
+
 
 对于ALBERT，作者使用了句子顺序预测（SOP）损失，它避免了主题预测，而是着重于句间建模。
 
@@ -78,17 +86,13 @@ NSP将主题预测和连贯性预测合并为一个单项任务
 
 从图中知道，同一规模ALBERT和BERT，比如同为Base：
 
-BERT base: 4.7x；ALBERT base：5.6x；速度确实变快
+BERT base: 4.7x；ALBERT base：5.6x；**速度确实变快，但是确实加速并不明显**；
 
 同等效果的情况下，比如BERT base（Avg=82.3）和ALBERT large（Avg=82.4）：
 
 BERT base：4.7x；ALBERT large：1.7x；速度变慢了
 
 # 总结
-
-总之，ALBERT并不如论文名称那样轻量级，只要版本规格小于xlarge，那么同一规格的ALBERT效果都是不如BERT的。
-
-所以，同一规格的ALBERT和BERT预测速度是一样的，甚至真要较真的话，其实ALBERT应该更慢一些，因为ALBERT对Embedding层用了矩阵分解，这一步会带来额外的计算量，虽然这个计算量一般来说我们都感知不到。
 
 总结一下可以学习的思路：
 
@@ -97,10 +101,4 @@ BERT base：4.7x；ALBERT large：1.7x；速度变慢了
 3. 词向量矩阵分解能减少参数，但是也会降低性能
 4. 跨层参数分享可以降低参数，也会降低性能，通过实验图知道，attention共享效果还好，FFN共享效果降低有点多
 5. 取消NSP，使用SOP，正负样本来自同一个文档，但是顺序不同。
-6. 推理速度来看，同等规格，ALBERT速度变快，同等效果，速度变慢；
-
-参考链接：
-
-如何看待瘦身成功版BERT——ALBERT？ - 小莲子的回答 - 知乎 https://www.zhihu.com/question/347898375/answer/863537122
-
-[用ALBERT和ELECTRA之前，请确认你真的了解它们](https://kexue.fm/archives/7846)
+6. **推理速度来看，同等规格，ALBERT速度确实变快，但是并不明显，同等效果，速度变慢**；https://kexue.fm/archives/7846)
