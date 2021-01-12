@@ -47,7 +47,7 @@
 4. [PKD-Bert基于多层的知识蒸馏方式](./深度学习自然语言处理/模型蒸馏/PKD-Bert基于多层的知识蒸馏方式.md)
 5. [BERT-of-Theseus-模块压缩交替训练](./深度学习自然语言处理/模型蒸馏/Theseus-模块压缩交替训练.md)
 6. [tinybert-全方位蒸馏](./深度学习自然语言处理/模型蒸馏/tinybert-全方位蒸馏.md)
-7. [ALBERT：更小更少但并不快](./深度学习自然语言处理/模型蒸馏/ALBERT-更小更少但并不快.md)-公众号
+7. [ALBERT：更小更少但并不快](./深度学习自然语言处理/模型蒸馏/ALBERT-更小更少但并不快.md)
 
 ### 词向量-word embedding
 
@@ -98,7 +98,7 @@
 3. [工业级命名体识别的做法](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%91%BD%E5%90%8D%E4%BD%93%E8%AF%86%E5%88%AB/%E5%B7%A5%E4%B8%9A%E7%BA%A7%E5%91%BD%E5%90%8D%E4%BD%93%E8%AF%86%E5%88%AB%E7%9A%84%E5%81%9A%E6%B3%95.md)     
 4. [词典匹配+模型预测-实体识别两大法宝](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%91%BD%E5%90%8D%E4%BD%93%E8%AF%86%E5%88%AB/%E8%AF%8D%E5%85%B8%E5%8C%B9%E9%85%8D%2B%E6%A8%A1%E5%9E%8B%E9%A2%84%E6%B5%8B-%E5%AE%9E%E4%BD%93%E8%AF%86%E5%88%AB%E4%B8%A4%E5%A4%A7%E6%B3%95%E5%AE%9D.md)
 
-5. [autoner+fuzzy-CRF-使用领域词典做命名体识别](./深度学习自然语言处理/命名体识别/autoner.md)-公众号
+5. [autoner+fuzzy-CRF-使用领域词典做命名体识别](./深度学习自然语言处理/命名体识别/autoner.md)
 
 6. [FLAT-Transformer-词典+Transformer融合词汇信息](./深度学习自然语言处理/命名体识别/FLAT-Transformer.md)--公众号
 
@@ -163,8 +163,9 @@
 
 1. [20201210一周|技术问题答疑汇总](./深度学习自然语言处理/其他/20201210一周|技术问题答疑汇总.md)
 
-
 ## 模型部署
+
+[算法工程师常说的【处理数据】究竟是在做什么](./模型部署/算法工程师常说的[处理数据]究竟是在做什么.md)
 
 ### 1.Kafka
 
