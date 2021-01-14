@@ -53,3 +53,16 @@ DSSM 为什么以一个正样本几个负样本softmax归一化然后正样本�
 百度NLP | 神经网络语义匹配技术：https://www.jiqizhixin.com/articles/2017-06-15-5  
 
 语义匹配 - 乐沐阳的文章 - 知乎 https://zhuanlan.zhihu.com/p/57550660
+
+
+
+# 损失函数
+
+DSSM通过推导公式，可以得到最大化似然估计和交叉熵损失函数是一致的。
+
+【辩难】DSSM 损失函数是 Pointwise Loss 吗？ - xSeeker的文章 - 知乎 https://zhuanlan.zhihu.com/p/322065156
+
+交叉熵损失函数原理详解：
+
+https://blog.csdn.net/b1055077005/article/details/100152102
+
