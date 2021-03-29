@@ -1,17 +1,12 @@
 # 背景介绍
 
-建立这个仓库是为了梳理自然语言处理(NLP)各个方面的知识，提升自己的核心竞争力。我觉得NLP是一个值得深耕的领域，所以希望可以不停的提升自己的段位！
-
-
 [B站主页-NLP学习之路](https://space.bilibili.com/414678948)
 
+建立这个仓库是为了梳理自然语言处理(NLP)各个方面的知识，提升自己的核心竞争力。我觉得NLP是一个值得深耕的领域，所以希望可以不停的提升自己的段位！
 
 **微信公众号：NLP从入门到放弃**
 
 ![wechat](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2020-12-22-041855.jpg)
-
-
-
 
 ## 深度学习自然语言处理
 
@@ -43,6 +38,7 @@
 8. [UniLM:为Bert插上文本生成的翅膀](./深度学习自然语言处理/Bert/UniLM.md)
 9. [tBERT-BERT融合主题模型做文本匹配](./深度学习自然语言处理/Bert/tBERT-BERT融合主题模型.md)
 10. [XLNET](./深度学习自然语言处理/Bert/XLNET.md)
+11. [如何在脱敏数据中使用BERT等预训练模型](./深度学习自然语言处理/如何在脱敏数据中使用BERT等预训练模型.md)
 
 ### Bert-知识蒸馏
 
@@ -53,6 +49,7 @@
 5. [BERT-of-Theseus-模块压缩交替训练](./深度学习自然语言处理/模型蒸馏/Theseus-模块压缩交替训练.md)
 6. [tinybert-全方位蒸馏](./深度学习自然语言处理/模型蒸馏/tinybert-全方位蒸馏.md)
 7. [ALBERT：更小更少但并不快](./深度学习自然语言处理/模型蒸馏/ALBERT-更小更少但并不快.md)
+8. [BERT知识蒸馏代码解析-如何写好损失函数](./深度学习自然语言处理/模型蒸馏/BERT知识蒸馏代码解析-如何写好损失函数.md)
 
 ### 词向量-word embedding
 
@@ -85,6 +82,7 @@
 
 
 ### 文本相似度
+
 1. [五千字全面梳理文本相似度/文本匹配模型](./深度学习自然语言处理/文本匹配和文本相似度/五千字全面梳理文本相似度和文本匹配模型.md)
 2. [如何又好又快的做文本匹配-ESIM模型](./深度学习自然语言处理/文本匹配和文本相似度/ESIM.md)
 3. [阿里RE2-将残差连接和文本匹配模型融合.md](./深度学习自然语言处理/文本匹配和文本相似度/阿里RE2-将残差连接和文本匹配模型融合.md)
@@ -99,6 +97,7 @@
 3. [聊一聊NLPer如何做关键词抽取](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E6%96%B9%E6%B3%95%E7%BB%BC%E8%BF%B0.md)
 
 ###  命名体识别
+
 1. [命名体识别资源梳理(代码+博客讲解)](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%91%BD%E5%90%8D%E4%BD%93%E8%AF%86%E5%88%AB/%E5%91%BD%E5%90%8D%E4%BD%93%E8%AF%86%E5%88%AB%E8%B5%84%E6%BA%90%E6%A2%B3%E7%90%86(%E4%BB%A3%E7%A0%81%2B%E5%8D%9A%E5%AE%A2%E8%AE%B2%E8%A7%A3).md)
 2. [HMM/CRF 详细解读](./深度学习自然语言处理/命名体识别/HMM_CRF.md) 
 3. [工业级命名体识别的做法](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E5%91%BD%E5%90%8D%E4%BD%93%E8%AF%86%E5%88%AB/%E5%B7%A5%E4%B8%9A%E7%BA%A7%E5%91%BD%E5%90%8D%E4%BD%93%E8%AF%86%E5%88%AB%E7%9A%84%E5%81%9A%E6%B3%95.md)     
@@ -148,7 +147,9 @@
 3. [xgboost全面解析](./机器学习/xgboost/xgboost.md)
 4. [xgboost完整训练代码](./机器学习/xgboost/xgboost训练代码.py)
 5. [xgboost特征重要程度代码](./机器学习/xgboost/xgboost获得特征重要程度并画图.py)
+
 ## 搜索
+
 1. [各种关于搜索的好文章资源总结-看到比较不错的就放上来](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%90%9C%E7%B4%A2/%E6%90%9C%E7%B4%A2%E8%B5%84%E6%BA%90%E6%80%BB%E7%BB%93-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0.md)---持续更新
 2. [什么是倒排索引](.//搜索/倒排索引基本概念.md)
 
@@ -184,5 +185,3 @@
 ### 5. Grpc
 
 ### 6. TensorRT
-
-
