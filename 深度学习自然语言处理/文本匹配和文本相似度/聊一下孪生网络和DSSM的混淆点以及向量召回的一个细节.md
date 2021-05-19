@@ -12,7 +12,7 @@
 
 什么是对比损失函数呢？公式如下：
 
-![image-20210114154303377](/Users/zida/Library/Application%20Support/typora-user-images/image-20210114154303377.png)
+![image-20210114154303377](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2021-05-19-065215.png)
 
 这个公式需要注意两个细节点，一个是d，代表的是距离度量，一个是margin，代表的是一个超参；
 
@@ -20,7 +20,7 @@
 
 首先当然是可以，只要能够优化都可以；
 
-![image-20210114154713043](/Users/zida/Library/Application%20Support/typora-user-images/image-20210114154713043.png)
+![image-20210114154713043](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2021-05-19-065221.png)
 
 参考自这里：
 
