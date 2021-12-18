@@ -6,7 +6,7 @@
 
 **微信公众号：NLP从入门到放弃**
 
-![wechat](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2020-12-22-041855.jpg)
+![扫码_搜索联合传播样式-白色版](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2021-12-18-132205.bmp)
 
 ## 深度学习自然语言处理
 
