@@ -4,9 +4,9 @@
 
 建立这个仓库是为了梳理自然语言处理(NLP)各个方面的知识，提升自己的核心竞争力。我觉得NLP是一个值得深耕的领域，所以希望可以不停的提升自己的段位！
 
-**微信公众号：NLP从入门到放弃**
+**微信公众号：DASOU
 
-![扫码_搜索联合传播样式-白色版](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2021-12-18-132205.bmp)
+![扫码_搜索联合传播样式-白色版](https://picsfordablog.oss-cn-beijing.aliyuncs.com/2022-01-12-062132.bmp)
 
 ## 深度学习自然语言处理
 
