@@ -24,8 +24,6 @@ NLP日常工作经验和论文解析，包含：预训练模型，文本表征�
 12. [Transformer全部文章合辑](https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/Transformer/%E7%AD%94%E6%A1%88%E5%90%88%E8%BE%91.md)
 13. [RNN的梯度消失有什么与众不同的地方.md](./深度学习自然语言处理/其他/RNN的梯度消失有什么与众不同的地方.md)
 14. [VIT-如何将Transformer更好的应用到CV领域](./深度学习自然语言处理/Transformer/VIT-如何将Transformer更好的应用到CV领域.md)
-15. [VIT论文讲解视频代码](./深度学习自然语言处理/Transformer/VIT.py)
-16. [VIT论文讲解视频PDF](./深度学习自然语言处理/Transformer/VIT从零解读.pdf)
 
 ### Bert-基本知识
 
